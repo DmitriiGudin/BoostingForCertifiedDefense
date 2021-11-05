@@ -5,6 +5,10 @@ import h5py
 import params
 
 
+input_file = params.testing_file
+output_file = params.smoothed_testing_file
+
+
 def classify_smoothed_image (image, pixel_max_value, model, N_MC, gauss): # 
     classes = []
     for n in range(N_MC):
@@ -24,8 +28,8 @@ if __name__ == '__main__':
     with open(params.model_filename, 'rb') as f:
         clf = pickle.load(f)
 
-    hdf5_read_file = h5py.File(params.training_file,'r')
-    hdf5_write_file = h5py.File(params.smoothed_training_file,'w')
+    hdf5_read_file = h5py.File(input_file,'r')
+    hdf5_write_file = h5py.File(output_file,'w')
     X, Y = hdf5_read_file['X'][:], hdf5_read_file['Y'][:]
     dset = hdf5_write_file.create_dataset('Y', (len(Y),params.N_MC), int)
     pixel_max_value = max(Y)

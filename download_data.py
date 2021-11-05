@@ -24,7 +24,7 @@ if __name__ == '__main__':
     #hdf5_file.close()
     
     X, Y = fetch_openml("mnist_784", version=1, return_X_y=True, as_frame=False, cache=True)
-    train_X, test_X, train_Y, test_Y = train_test_split(X, Y, train_size=1000, test_size=1000)
+    train_X, test_X, train_Y, test_Y = train_test_split(X, Y, train_size=10000, test_size=10000)
     
     hdf5_file = h5py.File('data/MNIST_training_toy.hdf5','w')
     dset = hdf5_file.create_dataset('X', (10000,784), dtype=int) #60,000
