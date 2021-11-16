@@ -1,7 +1,0 @@
-29 sec:        0.0, 255.0
-30 sec:        0.0, 255.0
-30 sec:        0, 9
-30 sec:        0, 9
-619 sec:        Training complete!
-625 sec:        Accuracy on the training set: 0.9998
-626 sec:        Accuracy on the testing set: 0.9523
