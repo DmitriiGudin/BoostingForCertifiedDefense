@@ -1,6 +1,11 @@
-(env0) D:\May\Classes\CMSC742\Project_XGBoost>python train.py
-0 sec:        Training on the original set...
-[10:55:41] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:576:
+
+(env0) D:\May\Classes\CMSC742\Project_XGBoost>python run.py
+3 sec:
+3 sec:        -----
+3 sec:        Sigma smoothing: 0
+3 sec:        -----
+3 sec:        Training the model...
+[05:04:28] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:576:
 Parameters: { "metric" } might not be used.
 
   This could be a false alarm, with some parameters getting used by language bindings but
@@ -8,7 +13,7 @@ Parameters: { "metric" } might not be used.
   but getting flagged wrongly here. Please open an issue if you find any such cases.
 
 
-[10:55:43] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[05:04:29] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
 [0]     test-mlogloss:1.36772   train-mlogloss:1.35689
 [1]     test-mlogloss:1.04625   train-mlogloss:1.02601
 [2]     test-mlogloss:0.83568   train-mlogloss:0.81080
@@ -209,63 +214,51 @@ Parameters: { "metric" } might not be used.
 [197]   test-mlogloss:0.06253   train-mlogloss:0.00050
 [198]   test-mlogloss:0.06252   train-mlogloss:0.00049
 [199]   test-mlogloss:0.06245   train-mlogloss:0.00049
-[200]   test-mlogloss:0.06241   train-mlogloss:0.00049
-[201]   test-mlogloss:0.06239   train-mlogloss:0.00048
-[202]   test-mlogloss:0.06240   train-mlogloss:0.00048
-[203]   test-mlogloss:0.06242   train-mlogloss:0.00048
-[204]   test-mlogloss:0.06242   train-mlogloss:0.00047
-[205]   test-mlogloss:0.06239   train-mlogloss:0.00047
-[206]   test-mlogloss:0.06237   train-mlogloss:0.00047
-[207]   test-mlogloss:0.06242   train-mlogloss:0.00047
-[208]   test-mlogloss:0.06241   train-mlogloss:0.00046
-[209]   test-mlogloss:0.06238   train-mlogloss:0.00046
-[210]   test-mlogloss:0.06236   train-mlogloss:0.00046
-[211]   test-mlogloss:0.06237   train-mlogloss:0.00046
-[212]   test-mlogloss:0.06231   train-mlogloss:0.00045
-[213]   test-mlogloss:0.06232   train-mlogloss:0.00045
-[214]   test-mlogloss:0.06235   train-mlogloss:0.00045
-[215]   test-mlogloss:0.06234   train-mlogloss:0.00044
-[216]   test-mlogloss:0.06232   train-mlogloss:0.00044
-[217]   test-mlogloss:0.06226   train-mlogloss:0.00044
-[218]   test-mlogloss:0.06233   train-mlogloss:0.00044
-[219]   test-mlogloss:0.06232   train-mlogloss:0.00044
-[220]   test-mlogloss:0.06225   train-mlogloss:0.00043
-[221]   test-mlogloss:0.06228   train-mlogloss:0.00043
-[222]   test-mlogloss:0.06229   train-mlogloss:0.00043
-[223]   test-mlogloss:0.06228   train-mlogloss:0.00042
-[224]   test-mlogloss:0.06225   train-mlogloss:0.00042
-[225]   test-mlogloss:0.06227   train-mlogloss:0.00042
-[226]   test-mlogloss:0.06225   train-mlogloss:0.00042
-[227]   test-mlogloss:0.06224   train-mlogloss:0.00042
-[228]   test-mlogloss:0.06225   train-mlogloss:0.00041
-[229]   test-mlogloss:0.06227   train-mlogloss:0.00041
-[230]   test-mlogloss:0.06230   train-mlogloss:0.00041
-[231]   test-mlogloss:0.06227   train-mlogloss:0.00041
-[232]   test-mlogloss:0.06229   train-mlogloss:0.00041
-[233]   test-mlogloss:0.06235   train-mlogloss:0.00040
-[234]   test-mlogloss:0.06236   train-mlogloss:0.00040
-[235]   test-mlogloss:0.06234   train-mlogloss:0.00040
-[236]   test-mlogloss:0.06232   train-mlogloss:0.00040
-[237]   test-mlogloss:0.06233   train-mlogloss:0.00040
-[238]   test-mlogloss:0.06228   train-mlogloss:0.00039
-[239]   test-mlogloss:0.06230   train-mlogloss:0.00039
-[240]   test-mlogloss:0.06229   train-mlogloss:0.00039
-[241]   test-mlogloss:0.06229   train-mlogloss:0.00039
-[242]   test-mlogloss:0.06225   train-mlogloss:0.00039
-[243]   test-mlogloss:0.06228   train-mlogloss:0.00038
-[244]   test-mlogloss:0.06225   train-mlogloss:0.00038
-[245]   test-mlogloss:0.06221   train-mlogloss:0.00038
-[246]   test-mlogloss:0.06221   train-mlogloss:0.00038
-[247]   test-mlogloss:0.06220   train-mlogloss:0.00038
-[248]   test-mlogloss:0.06218   train-mlogloss:0.00038
-[249]   test-mlogloss:0.06217   train-mlogloss:0.00037
-368 sec:        Training of the base model complete!
-369 sec:        Accuracy on the training set: 1.0
-370 sec:        Accuracy on the testing set: 0.9804
-5981 sec:        Accuracy of the randomized-smoothed model on the original training set: 0.7434666666666667
-6946 sec:        Accuracy of the randomized-smoothed model on the original testing set: 0.7323
-6948 sec:        Training on the noisy set...
-[12:51:30] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:576:
+308 sec:        Training complete!
+ZOO:  17%|█████████████████████████████████████████████▌                                                                                                                                                                                                                                 | 84/500 [54:49<5:40:55, 49.17s/it]C:\Users\MayCaesar\AppData\Roaming\Python\Python39\site-packages\art\attacks\evasion\zoo.py:540: RuntimeWarning: invalid value encountered in true_divide
+  current_noise[index] -= learning_rate * corr * mean[index] / (np.sqrt(var[index]) + 1e-8)
+ZOO: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [5:30:13<00:00, 39.63s/it]
+20122 sec:        Sigma testing: 0
+20126 sec:        Accuracy on the training set: 1.0
+20127 sec:        Accuracy on the testing set: 0.9802
+25775 sec:        Randomized smoothing accuracy on the training set: 0.6672
+26716 sec:        Randomized smoothing accuracy on the testing set: 0.6673
+26716 sec:        Accuracy on the attacked testing set: 0.068
+26763 sec:        Randomized smoothing accuracy on the attacked testing set: 0.438
+26763 sec:        Sigma testing: 0.05
+26767 sec:        Accuracy on the training set: 0.84995
+26768 sec:        Accuracy on the testing set: 0.8312
+32388 sec:        Randomized smoothing accuracy on the training set: 0.57665
+33324 sec:        Randomized smoothing accuracy on the testing set: 0.5805
+33324 sec:        Accuracy on the attacked testing set: 0.068
+33371 sec:        Randomized smoothing accuracy on the attacked testing set: 0.462
+33371 sec:        Sigma testing: 0.1
+33376 sec:        Accuracy on the training set: 0.7500166666666667
+33376 sec:        Accuracy on the testing set: 0.7363
+38983 sec:        Randomized smoothing accuracy on the training set: 0.48435
+39917 sec:        Randomized smoothing accuracy on the testing set: 0.49
+39917 sec:        Accuracy on the attacked testing set: 0.068
+39964 sec:        Randomized smoothing accuracy on the attacked testing set: 0.454
+39964 sec:        Sigma testing: 0.25
+39969 sec:        Accuracy on the training set: 0.5632166666666667
+39969 sec:        Accuracy on the testing set: 0.5708
+45563 sec:        Randomized smoothing accuracy on the training set: 0.28591666666666665
+46495 sec:        Randomized smoothing accuracy on the testing set: 0.2894
+46496 sec:        Accuracy on the attacked testing set: 0.068
+46543 sec:        Randomized smoothing accuracy on the attacked testing set: 0.438
+46543 sec:        Sigma testing: 0.5
+46548 sec:        Accuracy on the training set: 0.3676333333333333
+46548 sec:        Accuracy on the testing set: 0.3744
+52133 sec:        Randomized smoothing accuracy on the training set: 0.14401666666666665
+53063 sec:        Randomized smoothing accuracy on the testing set: 0.1484
+53063 sec:        Accuracy on the attacked testing set: 0.068
+53110 sec:        Randomized smoothing accuracy on the attacked testing set: 0.446
+53113 sec:
+53113 sec:        -----
+53113 sec:        Sigma smoothing: 0.05
+53113 sec:        -----
+53113 sec:        Training the model...
+[19:49:38] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:576:
 Parameters: { "metric" } might not be used.
 
   This could be a false alarm, with some parameters getting used by language bindings but
@@ -273,259 +266,994 @@ Parameters: { "metric" } might not be used.
   but getting flagged wrongly here. Please open an issue if you find any such cases.
 
 
-[12:51:37] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-[0]     test-mlogloss:1.45607   train-mlogloss:1.46439
-[1]     test-mlogloss:1.12209   train-mlogloss:1.12517
-[2]     test-mlogloss:0.91118   train-mlogloss:0.91069
-[3]     test-mlogloss:0.75492   train-mlogloss:0.75119
-[4]     test-mlogloss:0.64024   train-mlogloss:0.63096
-[5]     test-mlogloss:0.54960   train-mlogloss:0.53456
-[6]     test-mlogloss:0.48013   train-mlogloss:0.46050
-[7]     test-mlogloss:0.42461   train-mlogloss:0.39987
-[8]     test-mlogloss:0.38017   train-mlogloss:0.35068
-[9]     test-mlogloss:0.34172   train-mlogloss:0.30918
-[10]    test-mlogloss:0.31217   train-mlogloss:0.27553
-[11]    test-mlogloss:0.28707   train-mlogloss:0.24707
-[12]    test-mlogloss:0.26771   train-mlogloss:0.22393
-[13]    test-mlogloss:0.24876   train-mlogloss:0.20173
-[14]    test-mlogloss:0.23394   train-mlogloss:0.18397
-[15]    test-mlogloss:0.21978   train-mlogloss:0.16773
-[16]    test-mlogloss:0.20736   train-mlogloss:0.15351
-[17]    test-mlogloss:0.19658   train-mlogloss:0.14117
-[18]    test-mlogloss:0.18742   train-mlogloss:0.13062
-[19]    test-mlogloss:0.17974   train-mlogloss:0.12106
-[20]    test-mlogloss:0.17233   train-mlogloss:0.11230
-[21]    test-mlogloss:0.16577   train-mlogloss:0.10415
-[22]    test-mlogloss:0.16001   train-mlogloss:0.09741
-[23]    test-mlogloss:0.15460   train-mlogloss:0.09091
-[24]    test-mlogloss:0.14943   train-mlogloss:0.08476
-[25]    test-mlogloss:0.14510   train-mlogloss:0.07916
-[26]    test-mlogloss:0.14153   train-mlogloss:0.07445
-[27]    test-mlogloss:0.13778   train-mlogloss:0.06977
-[28]    test-mlogloss:0.13427   train-mlogloss:0.06570
-[29]    test-mlogloss:0.13130   train-mlogloss:0.06186
-[30]    test-mlogloss:0.12824   train-mlogloss:0.05790
-[31]    test-mlogloss:0.12575   train-mlogloss:0.05461
-[32]    test-mlogloss:0.12343   train-mlogloss:0.05185
-[33]    test-mlogloss:0.12124   train-mlogloss:0.04905
-[34]    test-mlogloss:0.11854   train-mlogloss:0.04610
-[35]    test-mlogloss:0.11634   train-mlogloss:0.04322
-[36]    test-mlogloss:0.11476   train-mlogloss:0.04089
-[37]    test-mlogloss:0.11282   train-mlogloss:0.03828
-[38]    test-mlogloss:0.11093   train-mlogloss:0.03590
-[39]    test-mlogloss:0.10931   train-mlogloss:0.03351
-[40]    test-mlogloss:0.10774   train-mlogloss:0.03168
-[41]    test-mlogloss:0.10658   train-mlogloss:0.02996
-[42]    test-mlogloss:0.10583   train-mlogloss:0.02817
-[43]    test-mlogloss:0.10456   train-mlogloss:0.02666
-[44]    test-mlogloss:0.10323   train-mlogloss:0.02520
-[45]    test-mlogloss:0.10210   train-mlogloss:0.02390
-[46]    test-mlogloss:0.10098   train-mlogloss:0.02245
-[47]    test-mlogloss:0.09975   train-mlogloss:0.02125
-[48]    test-mlogloss:0.09896   train-mlogloss:0.02024
-[49]    test-mlogloss:0.09801   train-mlogloss:0.01904
-[50]    test-mlogloss:0.09699   train-mlogloss:0.01791
-[51]    test-mlogloss:0.09626   train-mlogloss:0.01691
-[52]    test-mlogloss:0.09490   train-mlogloss:0.01605
-[53]    test-mlogloss:0.09408   train-mlogloss:0.01521
-[54]    test-mlogloss:0.09332   train-mlogloss:0.01433
-[55]    test-mlogloss:0.09227   train-mlogloss:0.01358
-[56]    test-mlogloss:0.09168   train-mlogloss:0.01285
-[57]    test-mlogloss:0.09153   train-mlogloss:0.01232
-[58]    test-mlogloss:0.09096   train-mlogloss:0.01175
-[59]    test-mlogloss:0.09028   train-mlogloss:0.01112
-[60]    test-mlogloss:0.08957   train-mlogloss:0.01066
-[61]    test-mlogloss:0.08888   train-mlogloss:0.01014
-[62]    test-mlogloss:0.08869   train-mlogloss:0.00966
-[63]    test-mlogloss:0.08827   train-mlogloss:0.00918
-[64]    test-mlogloss:0.08778   train-mlogloss:0.00873
-[65]    test-mlogloss:0.08742   train-mlogloss:0.00831
-[66]    test-mlogloss:0.08701   train-mlogloss:0.00789
-[67]    test-mlogloss:0.08682   train-mlogloss:0.00747
-[68]    test-mlogloss:0.08681   train-mlogloss:0.00717
-[69]    test-mlogloss:0.08652   train-mlogloss:0.00684
-[70]    test-mlogloss:0.08616   train-mlogloss:0.00654
-[71]    test-mlogloss:0.08602   train-mlogloss:0.00620
-[72]    test-mlogloss:0.08587   train-mlogloss:0.00595
-[73]    test-mlogloss:0.08557   train-mlogloss:0.00572
-[74]    test-mlogloss:0.08566   train-mlogloss:0.00553
-[75]    test-mlogloss:0.08525   train-mlogloss:0.00531
-[76]    test-mlogloss:0.08504   train-mlogloss:0.00510
-[77]    test-mlogloss:0.08495   train-mlogloss:0.00486
-[78]    test-mlogloss:0.08468   train-mlogloss:0.00466
-[79]    test-mlogloss:0.08434   train-mlogloss:0.00448
-[80]    test-mlogloss:0.08427   train-mlogloss:0.00431
-[81]    test-mlogloss:0.08400   train-mlogloss:0.00413
-[82]    test-mlogloss:0.08380   train-mlogloss:0.00398
-[83]    test-mlogloss:0.08358   train-mlogloss:0.00383
-[84]    test-mlogloss:0.08331   train-mlogloss:0.00369
-[85]    test-mlogloss:0.08324   train-mlogloss:0.00357
-[86]    test-mlogloss:0.08303   train-mlogloss:0.00344
-[87]    test-mlogloss:0.08281   train-mlogloss:0.00331
-[88]    test-mlogloss:0.08263   train-mlogloss:0.00320
-[89]    test-mlogloss:0.08240   train-mlogloss:0.00309
-[90]    test-mlogloss:0.08221   train-mlogloss:0.00299
-[91]    test-mlogloss:0.08231   train-mlogloss:0.00291
-[92]    test-mlogloss:0.08205   train-mlogloss:0.00281
-[93]    test-mlogloss:0.08192   train-mlogloss:0.00272
-[94]    test-mlogloss:0.08192   train-mlogloss:0.00264
-[95]    test-mlogloss:0.08189   train-mlogloss:0.00257
-[96]    test-mlogloss:0.08202   train-mlogloss:0.00250
-[97]    test-mlogloss:0.08198   train-mlogloss:0.00243
-[98]    test-mlogloss:0.08184   train-mlogloss:0.00237
-[99]    test-mlogloss:0.08165   train-mlogloss:0.00230
-[100]   test-mlogloss:0.08165   train-mlogloss:0.00224
-[101]   test-mlogloss:0.08167   train-mlogloss:0.00218
-[102]   test-mlogloss:0.08168   train-mlogloss:0.00212
-[103]   test-mlogloss:0.08162   train-mlogloss:0.00206
-[104]   test-mlogloss:0.08157   train-mlogloss:0.00201
-[105]   test-mlogloss:0.08156   train-mlogloss:0.00196
-[106]   test-mlogloss:0.08155   train-mlogloss:0.00190
-[107]   test-mlogloss:0.08157   train-mlogloss:0.00185
-[108]   test-mlogloss:0.08151   train-mlogloss:0.00180
-[109]   test-mlogloss:0.08146   train-mlogloss:0.00176
-[110]   test-mlogloss:0.08143   train-mlogloss:0.00172
-[111]   test-mlogloss:0.08159   train-mlogloss:0.00168
-[112]   test-mlogloss:0.08174   train-mlogloss:0.00164
-[113]   test-mlogloss:0.08178   train-mlogloss:0.00161
-[114]   test-mlogloss:0.08186   train-mlogloss:0.00158
-[115]   test-mlogloss:0.08179   train-mlogloss:0.00154
-[116]   test-mlogloss:0.08190   train-mlogloss:0.00151
-[117]   test-mlogloss:0.08188   train-mlogloss:0.00148
-[118]   test-mlogloss:0.08190   train-mlogloss:0.00145
-[119]   test-mlogloss:0.08186   train-mlogloss:0.00142
-[120]   test-mlogloss:0.08186   train-mlogloss:0.00139
-[121]   test-mlogloss:0.08189   train-mlogloss:0.00136
-[122]   test-mlogloss:0.08183   train-mlogloss:0.00134
-[123]   test-mlogloss:0.08191   train-mlogloss:0.00131
-[124]   test-mlogloss:0.08178   train-mlogloss:0.00128
-[125]   test-mlogloss:0.08184   train-mlogloss:0.00126
-[126]   test-mlogloss:0.08191   train-mlogloss:0.00124
-[127]   test-mlogloss:0.08181   train-mlogloss:0.00122
-[128]   test-mlogloss:0.08192   train-mlogloss:0.00120
-[129]   test-mlogloss:0.08203   train-mlogloss:0.00118
-[130]   test-mlogloss:0.08199   train-mlogloss:0.00116
-[131]   test-mlogloss:0.08214   train-mlogloss:0.00114
-[132]   test-mlogloss:0.08213   train-mlogloss:0.00112
-[133]   test-mlogloss:0.08206   train-mlogloss:0.00110
-[134]   test-mlogloss:0.08209   train-mlogloss:0.00108
-[135]   test-mlogloss:0.08208   train-mlogloss:0.00106
-[136]   test-mlogloss:0.08233   train-mlogloss:0.00105
-[137]   test-mlogloss:0.08222   train-mlogloss:0.00103
-[138]   test-mlogloss:0.08239   train-mlogloss:0.00102
-[139]   test-mlogloss:0.08241   train-mlogloss:0.00100
-[140]   test-mlogloss:0.08253   train-mlogloss:0.00098
-[141]   test-mlogloss:0.08257   train-mlogloss:0.00097
-[142]   test-mlogloss:0.08252   train-mlogloss:0.00095
-[143]   test-mlogloss:0.08269   train-mlogloss:0.00094
-[144]   test-mlogloss:0.08267   train-mlogloss:0.00093
-[145]   test-mlogloss:0.08274   train-mlogloss:0.00092
-[146]   test-mlogloss:0.08271   train-mlogloss:0.00090
-[147]   test-mlogloss:0.08274   train-mlogloss:0.00089
-[148]   test-mlogloss:0.08283   train-mlogloss:0.00088
-[149]   test-mlogloss:0.08279   train-mlogloss:0.00087
-[150]   test-mlogloss:0.08279   train-mlogloss:0.00086
-[151]   test-mlogloss:0.08300   train-mlogloss:0.00085
-[152]   test-mlogloss:0.08298   train-mlogloss:0.00083
-[153]   test-mlogloss:0.08297   train-mlogloss:0.00082
-[154]   test-mlogloss:0.08304   train-mlogloss:0.00081
-[155]   test-mlogloss:0.08316   train-mlogloss:0.00080
-[156]   test-mlogloss:0.08313   train-mlogloss:0.00079
-[157]   test-mlogloss:0.08319   train-mlogloss:0.00078
-[158]   test-mlogloss:0.08328   train-mlogloss:0.00078
-[159]   test-mlogloss:0.08338   train-mlogloss:0.00077
-[160]   test-mlogloss:0.08356   train-mlogloss:0.00076
-[161]   test-mlogloss:0.08358   train-mlogloss:0.00075
-[162]   test-mlogloss:0.08379   train-mlogloss:0.00074
-[163]   test-mlogloss:0.08389   train-mlogloss:0.00073
-[164]   test-mlogloss:0.08390   train-mlogloss:0.00073
-[165]   test-mlogloss:0.08401   train-mlogloss:0.00072
-[166]   test-mlogloss:0.08404   train-mlogloss:0.00071
-[167]   test-mlogloss:0.08406   train-mlogloss:0.00070
-[168]   test-mlogloss:0.08405   train-mlogloss:0.00070
-[169]   test-mlogloss:0.08416   train-mlogloss:0.00069
-[170]   test-mlogloss:0.08426   train-mlogloss:0.00068
-[171]   test-mlogloss:0.08435   train-mlogloss:0.00068
-[172]   test-mlogloss:0.08447   train-mlogloss:0.00067
-[173]   test-mlogloss:0.08448   train-mlogloss:0.00066
-[174]   test-mlogloss:0.08459   train-mlogloss:0.00066
-[175]   test-mlogloss:0.08465   train-mlogloss:0.00065
-[176]   test-mlogloss:0.08469   train-mlogloss:0.00064
-[177]   test-mlogloss:0.08470   train-mlogloss:0.00064
-[178]   test-mlogloss:0.08477   train-mlogloss:0.00063
-[179]   test-mlogloss:0.08492   train-mlogloss:0.00063
-[180]   test-mlogloss:0.08494   train-mlogloss:0.00062
-[181]   test-mlogloss:0.08507   train-mlogloss:0.00061
-[182]   test-mlogloss:0.08514   train-mlogloss:0.00061
-[183]   test-mlogloss:0.08522   train-mlogloss:0.00060
-[184]   test-mlogloss:0.08534   train-mlogloss:0.00060
-[185]   test-mlogloss:0.08535   train-mlogloss:0.00059
-[186]   test-mlogloss:0.08548   train-mlogloss:0.00059
-[187]   test-mlogloss:0.08560   train-mlogloss:0.00058
-[188]   test-mlogloss:0.08558   train-mlogloss:0.00058
-[189]   test-mlogloss:0.08567   train-mlogloss:0.00057
-[190]   test-mlogloss:0.08572   train-mlogloss:0.00057
-[191]   test-mlogloss:0.08574   train-mlogloss:0.00056
-[192]   test-mlogloss:0.08580   train-mlogloss:0.00056
-[193]   test-mlogloss:0.08588   train-mlogloss:0.00056
-[194]   test-mlogloss:0.08597   train-mlogloss:0.00055
-[195]   test-mlogloss:0.08596   train-mlogloss:0.00055
-[196]   test-mlogloss:0.08603   train-mlogloss:0.00055
-[197]   test-mlogloss:0.08607   train-mlogloss:0.00054
-[198]   test-mlogloss:0.08611   train-mlogloss:0.00054
-[199]   test-mlogloss:0.08616   train-mlogloss:0.00053
-[200]   test-mlogloss:0.08618   train-mlogloss:0.00053
-[201]   test-mlogloss:0.08621   train-mlogloss:0.00052
-[202]   test-mlogloss:0.08638   train-mlogloss:0.00052
-[203]   test-mlogloss:0.08647   train-mlogloss:0.00052
-[204]   test-mlogloss:0.08655   train-mlogloss:0.00051
-[205]   test-mlogloss:0.08664   train-mlogloss:0.00051
-[206]   test-mlogloss:0.08679   train-mlogloss:0.00051
-[207]   test-mlogloss:0.08683   train-mlogloss:0.00050
-[208]   test-mlogloss:0.08693   train-mlogloss:0.00050
-[209]   test-mlogloss:0.08697   train-mlogloss:0.00050
-[210]   test-mlogloss:0.08703   train-mlogloss:0.00049
-[211]   test-mlogloss:0.08692   train-mlogloss:0.00049
-[212]   test-mlogloss:0.08688   train-mlogloss:0.00049
-[213]   test-mlogloss:0.08693   train-mlogloss:0.00048
-[214]   test-mlogloss:0.08698   train-mlogloss:0.00048
-[215]   test-mlogloss:0.08709   train-mlogloss:0.00048
-[216]   test-mlogloss:0.08708   train-mlogloss:0.00047
-[217]   test-mlogloss:0.08711   train-mlogloss:0.00047
-[218]   test-mlogloss:0.08717   train-mlogloss:0.00047
-[219]   test-mlogloss:0.08738   train-mlogloss:0.00047
-[220]   test-mlogloss:0.08743   train-mlogloss:0.00046
-[221]   test-mlogloss:0.08739   train-mlogloss:0.00046
-[222]   test-mlogloss:0.08746   train-mlogloss:0.00046
-[223]   test-mlogloss:0.08763   train-mlogloss:0.00046
-[224]   test-mlogloss:0.08766   train-mlogloss:0.00045
-[225]   test-mlogloss:0.08774   train-mlogloss:0.00045
-[226]   test-mlogloss:0.08780   train-mlogloss:0.00045
-[227]   test-mlogloss:0.08781   train-mlogloss:0.00044
-[228]   test-mlogloss:0.08783   train-mlogloss:0.00044
-[229]   test-mlogloss:0.08786   train-mlogloss:0.00044
-[230]   test-mlogloss:0.08792   train-mlogloss:0.00044
-[231]   test-mlogloss:0.08801   train-mlogloss:0.00043
-[232]   test-mlogloss:0.08809   train-mlogloss:0.00043
-[233]   test-mlogloss:0.08814   train-mlogloss:0.00043
-[234]   test-mlogloss:0.08827   train-mlogloss:0.00043
-[235]   test-mlogloss:0.08830   train-mlogloss:0.00042
-[236]   test-mlogloss:0.08833   train-mlogloss:0.00042
-[237]   test-mlogloss:0.08840   train-mlogloss:0.00042
-[238]   test-mlogloss:0.08847   train-mlogloss:0.00042
-[239]   test-mlogloss:0.08855   train-mlogloss:0.00042
-[240]   test-mlogloss:0.08868   train-mlogloss:0.00041
-[241]   test-mlogloss:0.08870   train-mlogloss:0.00041
-[242]   test-mlogloss:0.08866   train-mlogloss:0.00041
-[243]   test-mlogloss:0.08866   train-mlogloss:0.00041
-[244]   test-mlogloss:0.08872   train-mlogloss:0.00041
-[245]   test-mlogloss:0.08869   train-mlogloss:0.00040
-[246]   test-mlogloss:0.08865   train-mlogloss:0.00040
-[247]   test-mlogloss:0.08875   train-mlogloss:0.00040
-[248]   test-mlogloss:0.08879   train-mlogloss:0.00040
-[249]   test-mlogloss:0.08886   train-mlogloss:0.00040
-8195 sec:        Training of the base model complete!
-8197 sec:        Accuracy on the training set: 0.98585
-8197 sec:        Accuracy on the testing set: 0.9734
-14073 sec:        Accuracy of the randomized-smoothed model on the noisy training set: 0.9851
-15014 sec:        Accuracy of the randomized-smoothed model on the noisy testing set: 0.9756
+[19:49:44] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[0]     test-mlogloss:1.40118   train-mlogloss:1.39697
+[1]     test-mlogloss:1.07337   train-mlogloss:1.06206
+[2]     test-mlogloss:0.85976   train-mlogloss:0.84203
+[3]     test-mlogloss:0.70931   train-mlogloss:0.68591
+[4]     test-mlogloss:0.59878   train-mlogloss:0.56950
+[5]     test-mlogloss:0.51206   train-mlogloss:0.47857
+[6]     test-mlogloss:0.44527   train-mlogloss:0.40665
+[7]     test-mlogloss:0.39032   train-mlogloss:0.34775
+[8]     test-mlogloss:0.34697   train-mlogloss:0.30046
+[9]     test-mlogloss:0.31309   train-mlogloss:0.26336
+[10]    test-mlogloss:0.28490   train-mlogloss:0.23185
+[11]    test-mlogloss:0.26203   train-mlogloss:0.20654
+[12]    test-mlogloss:0.24188   train-mlogloss:0.18448
+[13]    test-mlogloss:0.22536   train-mlogloss:0.16634
+[14]    test-mlogloss:0.21069   train-mlogloss:0.15030
+[15]    test-mlogloss:0.19834   train-mlogloss:0.13622
+[16]    test-mlogloss:0.18811   train-mlogloss:0.12460
+[17]    test-mlogloss:0.17931   train-mlogloss:0.11432
+[18]    test-mlogloss:0.17126   train-mlogloss:0.10522
+[19]    test-mlogloss:0.16388   train-mlogloss:0.09688
+[20]    test-mlogloss:0.15682   train-mlogloss:0.08930
+[21]    test-mlogloss:0.15002   train-mlogloss:0.08204
+[22]    test-mlogloss:0.14442   train-mlogloss:0.07591
+[23]    test-mlogloss:0.13930   train-mlogloss:0.07027
+[24]    test-mlogloss:0.13550   train-mlogloss:0.06551
+[25]    test-mlogloss:0.13145   train-mlogloss:0.06081
+[26]    test-mlogloss:0.12872   train-mlogloss:0.05721
+[27]    test-mlogloss:0.12493   train-mlogloss:0.05293
+[28]    test-mlogloss:0.12143   train-mlogloss:0.04919
+[29]    test-mlogloss:0.11879   train-mlogloss:0.04563
+[30]    test-mlogloss:0.11643   train-mlogloss:0.04235
+[31]    test-mlogloss:0.11382   train-mlogloss:0.03942
+[32]    test-mlogloss:0.11165   train-mlogloss:0.03692
+[33]    test-mlogloss:0.10994   train-mlogloss:0.03472
+[34]    test-mlogloss:0.10847   train-mlogloss:0.03248
+[35]    test-mlogloss:0.10712   train-mlogloss:0.03071
+[36]    test-mlogloss:0.10577   train-mlogloss:0.02882
+[37]    test-mlogloss:0.10461   train-mlogloss:0.02721
+[38]    test-mlogloss:0.10281   train-mlogloss:0.02549
+[39]    test-mlogloss:0.10125   train-mlogloss:0.02366
+[40]    test-mlogloss:0.10009   train-mlogloss:0.02221
+[41]    test-mlogloss:0.09905   train-mlogloss:0.02090
+[42]    test-mlogloss:0.09786   train-mlogloss:0.01960
+[43]    test-mlogloss:0.09718   train-mlogloss:0.01852
+[44]    test-mlogloss:0.09620   train-mlogloss:0.01727
+[45]    test-mlogloss:0.09532   train-mlogloss:0.01630
+[46]    test-mlogloss:0.09424   train-mlogloss:0.01540
+[47]    test-mlogloss:0.09316   train-mlogloss:0.01451
+[48]    test-mlogloss:0.09258   train-mlogloss:0.01374
+[49]    test-mlogloss:0.09202   train-mlogloss:0.01292
+[50]    test-mlogloss:0.09145   train-mlogloss:0.01226
+[51]    test-mlogloss:0.09061   train-mlogloss:0.01161
+[52]    test-mlogloss:0.09018   train-mlogloss:0.01104
+[53]    test-mlogloss:0.08928   train-mlogloss:0.01042
+[54]    test-mlogloss:0.08885   train-mlogloss:0.00991
+[55]    test-mlogloss:0.08800   train-mlogloss:0.00935
+[56]    test-mlogloss:0.08730   train-mlogloss:0.00882
+[57]    test-mlogloss:0.08668   train-mlogloss:0.00834
+[58]    test-mlogloss:0.08616   train-mlogloss:0.00794
+[59]    test-mlogloss:0.08564   train-mlogloss:0.00756
+[60]    test-mlogloss:0.08518   train-mlogloss:0.00718
+[61]    test-mlogloss:0.08468   train-mlogloss:0.00685
+[62]    test-mlogloss:0.08426   train-mlogloss:0.00646
+[63]    test-mlogloss:0.08355   train-mlogloss:0.00620
+[64]    test-mlogloss:0.08328   train-mlogloss:0.00590
+[65]    test-mlogloss:0.08309   train-mlogloss:0.00567
+[66]    test-mlogloss:0.08244   train-mlogloss:0.00540
+[67]    test-mlogloss:0.08227   train-mlogloss:0.00513
+[68]    test-mlogloss:0.08206   train-mlogloss:0.00487
+[69]    test-mlogloss:0.08167   train-mlogloss:0.00466
+[70]    test-mlogloss:0.08155   train-mlogloss:0.00447
+[71]    test-mlogloss:0.08108   train-mlogloss:0.00429
+[72]    test-mlogloss:0.08071   train-mlogloss:0.00410
+[73]    test-mlogloss:0.08042   train-mlogloss:0.00393
+[74]    test-mlogloss:0.08040   train-mlogloss:0.00378
+[75]    test-mlogloss:0.08041   train-mlogloss:0.00364
+[76]    test-mlogloss:0.08028   train-mlogloss:0.00348
+[77]    test-mlogloss:0.08019   train-mlogloss:0.00335
+[78]    test-mlogloss:0.07988   train-mlogloss:0.00321
+[79]    test-mlogloss:0.07980   train-mlogloss:0.00310
+[80]    test-mlogloss:0.07974   train-mlogloss:0.00298
+[81]    test-mlogloss:0.07967   train-mlogloss:0.00288
+[82]    test-mlogloss:0.07957   train-mlogloss:0.00278
+[83]    test-mlogloss:0.07959   train-mlogloss:0.00268
+[84]    test-mlogloss:0.07953   train-mlogloss:0.00258
+[85]    test-mlogloss:0.07932   train-mlogloss:0.00250
+[86]    test-mlogloss:0.07905   train-mlogloss:0.00241
+[87]    test-mlogloss:0.07903   train-mlogloss:0.00233
+[88]    test-mlogloss:0.07892   train-mlogloss:0.00226
+[89]    test-mlogloss:0.07870   train-mlogloss:0.00219
+[90]    test-mlogloss:0.07873   train-mlogloss:0.00213
+[91]    test-mlogloss:0.07853   train-mlogloss:0.00207
+[92]    test-mlogloss:0.07835   train-mlogloss:0.00201
+[93]    test-mlogloss:0.07830   train-mlogloss:0.00196
+[94]    test-mlogloss:0.07804   train-mlogloss:0.00190
+[95]    test-mlogloss:0.07797   train-mlogloss:0.00185
+[96]    test-mlogloss:0.07792   train-mlogloss:0.00179
+[97]    test-mlogloss:0.07777   train-mlogloss:0.00175
+[98]    test-mlogloss:0.07762   train-mlogloss:0.00170
+[99]    test-mlogloss:0.07768   train-mlogloss:0.00166
+[100]   test-mlogloss:0.07781   train-mlogloss:0.00162
+[101]   test-mlogloss:0.07774   train-mlogloss:0.00158
+[102]   test-mlogloss:0.07782   train-mlogloss:0.00155
+[103]   test-mlogloss:0.07776   train-mlogloss:0.00151
+[104]   test-mlogloss:0.07778   train-mlogloss:0.00147
+[105]   test-mlogloss:0.07772   train-mlogloss:0.00145
+[106]   test-mlogloss:0.07777   train-mlogloss:0.00141
+[107]   test-mlogloss:0.07773   train-mlogloss:0.00138
+[108]   test-mlogloss:0.07761   train-mlogloss:0.00135
+[109]   test-mlogloss:0.07749   train-mlogloss:0.00132
+[110]   test-mlogloss:0.07748   train-mlogloss:0.00130
+[111]   test-mlogloss:0.07741   train-mlogloss:0.00127
+[112]   test-mlogloss:0.07748   train-mlogloss:0.00124
+[113]   test-mlogloss:0.07740   train-mlogloss:0.00122
+[114]   test-mlogloss:0.07751   train-mlogloss:0.00119
+[115]   test-mlogloss:0.07739   train-mlogloss:0.00117
+[116]   test-mlogloss:0.07747   train-mlogloss:0.00115
+[117]   test-mlogloss:0.07744   train-mlogloss:0.00113
+[118]   test-mlogloss:0.07743   train-mlogloss:0.00111
+[119]   test-mlogloss:0.07740   train-mlogloss:0.00109
+[120]   test-mlogloss:0.07730   train-mlogloss:0.00106
+[121]   test-mlogloss:0.07739   train-mlogloss:0.00105
+[122]   test-mlogloss:0.07738   train-mlogloss:0.00103
+[123]   test-mlogloss:0.07751   train-mlogloss:0.00101
+[124]   test-mlogloss:0.07734   train-mlogloss:0.00099
+[125]   test-mlogloss:0.07751   train-mlogloss:0.00098
+[126]   test-mlogloss:0.07757   train-mlogloss:0.00096
+[127]   test-mlogloss:0.07755   train-mlogloss:0.00095
+[128]   test-mlogloss:0.07745   train-mlogloss:0.00093
+[129]   test-mlogloss:0.07739   train-mlogloss:0.00092
+[130]   test-mlogloss:0.07741   train-mlogloss:0.00090
+[131]   test-mlogloss:0.07747   train-mlogloss:0.00089
+[132]   test-mlogloss:0.07742   train-mlogloss:0.00087
+[133]   test-mlogloss:0.07739   train-mlogloss:0.00086
+[134]   test-mlogloss:0.07738   train-mlogloss:0.00085
+[135]   test-mlogloss:0.07747   train-mlogloss:0.00084
+[136]   test-mlogloss:0.07750   train-mlogloss:0.00083
+[137]   test-mlogloss:0.07754   train-mlogloss:0.00082
+[138]   test-mlogloss:0.07755   train-mlogloss:0.00081
+[139]   test-mlogloss:0.07767   train-mlogloss:0.00080
+[140]   test-mlogloss:0.07773   train-mlogloss:0.00078
+[141]   test-mlogloss:0.07774   train-mlogloss:0.00077
+[142]   test-mlogloss:0.07779   train-mlogloss:0.00076
+[143]   test-mlogloss:0.07788   train-mlogloss:0.00075
+[144]   test-mlogloss:0.07798   train-mlogloss:0.00074
+[145]   test-mlogloss:0.07816   train-mlogloss:0.00073
+[146]   test-mlogloss:0.07814   train-mlogloss:0.00073
+[147]   test-mlogloss:0.07822   train-mlogloss:0.00072
+[148]   test-mlogloss:0.07833   train-mlogloss:0.00071
+[149]   test-mlogloss:0.07850   train-mlogloss:0.00070
+[150]   test-mlogloss:0.07845   train-mlogloss:0.00069
+[151]   test-mlogloss:0.07848   train-mlogloss:0.00069
+[152]   test-mlogloss:0.07850   train-mlogloss:0.00068
+[153]   test-mlogloss:0.07857   train-mlogloss:0.00067
+[154]   test-mlogloss:0.07859   train-mlogloss:0.00066
+[155]   test-mlogloss:0.07861   train-mlogloss:0.00066
+[156]   test-mlogloss:0.07871   train-mlogloss:0.00065
+[157]   test-mlogloss:0.07886   train-mlogloss:0.00064
+[158]   test-mlogloss:0.07895   train-mlogloss:0.00064
+[159]   test-mlogloss:0.07900   train-mlogloss:0.00063
+[160]   test-mlogloss:0.07897   train-mlogloss:0.00062
+[161]   test-mlogloss:0.07897   train-mlogloss:0.00062
+[162]   test-mlogloss:0.07901   train-mlogloss:0.00061
+[163]   test-mlogloss:0.07902   train-mlogloss:0.00061
+[164]   test-mlogloss:0.07908   train-mlogloss:0.00060
+[165]   test-mlogloss:0.07914   train-mlogloss:0.00060
+[166]   test-mlogloss:0.07914   train-mlogloss:0.00059
+[167]   test-mlogloss:0.07919   train-mlogloss:0.00058
+[168]   test-mlogloss:0.07923   train-mlogloss:0.00058
+[169]   test-mlogloss:0.07923   train-mlogloss:0.00057
+[170]   test-mlogloss:0.07927   train-mlogloss:0.00057
+[171]   test-mlogloss:0.07921   train-mlogloss:0.00056
+[172]   test-mlogloss:0.07934   train-mlogloss:0.00056
+[173]   test-mlogloss:0.07939   train-mlogloss:0.00056
+[174]   test-mlogloss:0.07937   train-mlogloss:0.00055
+[175]   test-mlogloss:0.07935   train-mlogloss:0.00055
+[176]   test-mlogloss:0.07934   train-mlogloss:0.00054
+[177]   test-mlogloss:0.07936   train-mlogloss:0.00054
+[178]   test-mlogloss:0.07940   train-mlogloss:0.00053
+[179]   test-mlogloss:0.07940   train-mlogloss:0.00053
+[180]   test-mlogloss:0.07941   train-mlogloss:0.00052
+[181]   test-mlogloss:0.07946   train-mlogloss:0.00052
+[182]   test-mlogloss:0.07955   train-mlogloss:0.00052
+[183]   test-mlogloss:0.07975   train-mlogloss:0.00051
+[184]   test-mlogloss:0.07974   train-mlogloss:0.00051
+[185]   test-mlogloss:0.07979   train-mlogloss:0.00050
+[186]   test-mlogloss:0.07986   train-mlogloss:0.00050
+[187]   test-mlogloss:0.07995   train-mlogloss:0.00050
+[188]   test-mlogloss:0.07998   train-mlogloss:0.00049
+[189]   test-mlogloss:0.07996   train-mlogloss:0.00049
+[190]   test-mlogloss:0.07996   train-mlogloss:0.00049
+[191]   test-mlogloss:0.07997   train-mlogloss:0.00048
+[192]   test-mlogloss:0.07999   train-mlogloss:0.00048
+[193]   test-mlogloss:0.07999   train-mlogloss:0.00048
+[194]   test-mlogloss:0.07999   train-mlogloss:0.00047
+[195]   test-mlogloss:0.08010   train-mlogloss:0.00047
+[196]   test-mlogloss:0.08008   train-mlogloss:0.00047
+[197]   test-mlogloss:0.08013   train-mlogloss:0.00046
+[198]   test-mlogloss:0.08022   train-mlogloss:0.00046
+[199]   test-mlogloss:0.08021   train-mlogloss:0.00046
+54062 sec:        Training complete!
+ZOO: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [7:48:34<00:00, 56.23s/it]
+82176 sec:        Sigma testing: 0
+82181 sec:        Accuracy on the training set: 0.9921666666666666
+82181 sec:        Accuracy on the testing set: 0.9762
+87832 sec:        Randomized smoothing accuracy on the training set: 0.8878166666666667
+88774 sec:        Randomized smoothing accuracy on the testing set: 0.8796
+88774 sec:        Accuracy on the attacked testing set: 0.332
+88821 sec:        Randomized smoothing accuracy on the attacked testing set: 0.6
+88821 sec:        Sigma testing: 0.05
+88826 sec:        Accuracy on the training set: 0.9901333333333333
+88826 sec:        Accuracy on the testing set: 0.9752
+94455 sec:        Randomized smoothing accuracy on the training set: 0.8435
+95395 sec:        Randomized smoothing accuracy on the testing set: 0.8369
+95395 sec:        Accuracy on the attacked testing set: 0.332
+95442 sec:        Randomized smoothing accuracy on the attacked testing set: 0.586
+95442 sec:        Sigma testing: 0.1
+95447 sec:        Accuracy on the training set: 0.9783166666666666
+95447 sec:        Accuracy on the testing set: 0.9658
+101058 sec:        Randomized smoothing accuracy on the training set: 0.8092333333333334
+101996 sec:        Randomized smoothing accuracy on the testing set: 0.8006
+101996 sec:        Accuracy on the attacked testing set: 0.332
+102043 sec:        Randomized smoothing accuracy on the attacked testing set: 0.582
+102043 sec:        Sigma testing: 0.25
+102048 sec:        Accuracy on the training set: 0.7733666666666666
+102048 sec:        Accuracy on the testing set: 0.7682
+107666 sec:        Randomized smoothing accuracy on the training set: 0.6120833333333333
+108601 sec:        Randomized smoothing accuracy on the testing set: 0.6177
+108601 sec:        Accuracy on the attacked testing set: 0.332
+108648 sec:        Randomized smoothing accuracy on the attacked testing set: 0.58
+108648 sec:        Sigma testing: 0.5
+108653 sec:        Accuracy on the training set: 0.5146666666666667
+108653 sec:        Accuracy on the testing set: 0.5199
+114251 sec:        Randomized smoothing accuracy on the training set: 0.31133333333333335
+115183 sec:        Randomized smoothing accuracy on the testing set: 0.3149
+115183 sec:        Accuracy on the attacked testing set: 0.332
+115230 sec:        Randomized smoothing accuracy on the attacked testing set: 0.574
+115233 sec:
+115233 sec:        -----
+115233 sec:        Sigma smoothing: 0.1
+115233 sec:        -----
+115233 sec:        Training the model...
+[13:04:57] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:576:
+Parameters: { "metric" } might not be used.
+
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+
+
+[13:05:04] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[0]     test-mlogloss:1.42669   train-mlogloss:1.42731
+[1]     test-mlogloss:1.10117   train-mlogloss:1.09494
+[2]     test-mlogloss:0.88896   train-mlogloss:0.87652
+[3]     test-mlogloss:0.73606   train-mlogloss:0.71837
+[4]     test-mlogloss:0.62092   train-mlogloss:0.59832
+[5]     test-mlogloss:0.53294   train-mlogloss:0.50565
+[6]     test-mlogloss:0.46385   train-mlogloss:0.43232
+[7]     test-mlogloss:0.40863   train-mlogloss:0.37329
+[8]     test-mlogloss:0.36349   train-mlogloss:0.32477
+[9]     test-mlogloss:0.32848   train-mlogloss:0.28586
+[10]    test-mlogloss:0.30062   train-mlogloss:0.25427
+[11]    test-mlogloss:0.27707   train-mlogloss:0.22729
+[12]    test-mlogloss:0.25740   train-mlogloss:0.20472
+[13]    test-mlogloss:0.24020   train-mlogloss:0.18535
+[14]    test-mlogloss:0.22485   train-mlogloss:0.16770
+[15]    test-mlogloss:0.21198   train-mlogloss:0.15326
+[16]    test-mlogloss:0.19927   train-mlogloss:0.14000
+[17]    test-mlogloss:0.18863   train-mlogloss:0.12798
+[18]    test-mlogloss:0.17989   train-mlogloss:0.11741
+[19]    test-mlogloss:0.17256   train-mlogloss:0.10863
+[20]    test-mlogloss:0.16555   train-mlogloss:0.10121
+[21]    test-mlogloss:0.15824   train-mlogloss:0.09340
+[22]    test-mlogloss:0.15307   train-mlogloss:0.08730
+[23]    test-mlogloss:0.14818   train-mlogloss:0.08156
+[24]    test-mlogloss:0.14407   train-mlogloss:0.07619
+[25]    test-mlogloss:0.14040   train-mlogloss:0.07152
+[26]    test-mlogloss:0.13631   train-mlogloss:0.06649
+[27]    test-mlogloss:0.13283   train-mlogloss:0.06283
+[28]    test-mlogloss:0.12901   train-mlogloss:0.05833
+[29]    test-mlogloss:0.12576   train-mlogloss:0.05412
+[30]    test-mlogloss:0.12318   train-mlogloss:0.05069
+[31]    test-mlogloss:0.12054   train-mlogloss:0.04788
+[32]    test-mlogloss:0.11822   train-mlogloss:0.04469
+[33]    test-mlogloss:0.11648   train-mlogloss:0.04255
+[34]    test-mlogloss:0.11435   train-mlogloss:0.04014
+[35]    test-mlogloss:0.11184   train-mlogloss:0.03717
+[36]    test-mlogloss:0.10967   train-mlogloss:0.03493
+[37]    test-mlogloss:0.10820   train-mlogloss:0.03303
+[38]    test-mlogloss:0.10720   train-mlogloss:0.03150
+[39]    test-mlogloss:0.10582   train-mlogloss:0.02950
+[40]    test-mlogloss:0.10473   train-mlogloss:0.02790
+[41]    test-mlogloss:0.10333   train-mlogloss:0.02632
+[42]    test-mlogloss:0.10183   train-mlogloss:0.02444
+[43]    test-mlogloss:0.10076   train-mlogloss:0.02307
+[44]    test-mlogloss:0.09955   train-mlogloss:0.02176
+[45]    test-mlogloss:0.09907   train-mlogloss:0.02066
+[46]    test-mlogloss:0.09809   train-mlogloss:0.01944
+[47]    test-mlogloss:0.09719   train-mlogloss:0.01836
+[48]    test-mlogloss:0.09656   train-mlogloss:0.01747
+[49]    test-mlogloss:0.09557   train-mlogloss:0.01651
+[50]    test-mlogloss:0.09452   train-mlogloss:0.01554
+[51]    test-mlogloss:0.09383   train-mlogloss:0.01478
+[52]    test-mlogloss:0.09342   train-mlogloss:0.01400
+[53]    test-mlogloss:0.09254   train-mlogloss:0.01317
+[54]    test-mlogloss:0.09170   train-mlogloss:0.01236
+[55]    test-mlogloss:0.09092   train-mlogloss:0.01168
+[56]    test-mlogloss:0.09050   train-mlogloss:0.01107
+[57]    test-mlogloss:0.08996   train-mlogloss:0.01053
+[58]    test-mlogloss:0.08948   train-mlogloss:0.01003
+[59]    test-mlogloss:0.08874   train-mlogloss:0.00957
+[60]    test-mlogloss:0.08834   train-mlogloss:0.00904
+[61]    test-mlogloss:0.08788   train-mlogloss:0.00856
+[62]    test-mlogloss:0.08742   train-mlogloss:0.00820
+[63]    test-mlogloss:0.08726   train-mlogloss:0.00780
+[64]    test-mlogloss:0.08674   train-mlogloss:0.00741
+[65]    test-mlogloss:0.08653   train-mlogloss:0.00706
+[66]    test-mlogloss:0.08617   train-mlogloss:0.00671
+[67]    test-mlogloss:0.08620   train-mlogloss:0.00639
+[68]    test-mlogloss:0.08588   train-mlogloss:0.00614
+[69]    test-mlogloss:0.08533   train-mlogloss:0.00582
+[70]    test-mlogloss:0.08491   train-mlogloss:0.00555
+[71]    test-mlogloss:0.08455   train-mlogloss:0.00529
+[72]    test-mlogloss:0.08428   train-mlogloss:0.00511
+[73]    test-mlogloss:0.08426   train-mlogloss:0.00489
+[74]    test-mlogloss:0.08398   train-mlogloss:0.00471
+[75]    test-mlogloss:0.08368   train-mlogloss:0.00450
+[76]    test-mlogloss:0.08354   train-mlogloss:0.00432
+[77]    test-mlogloss:0.08343   train-mlogloss:0.00414
+[78]    test-mlogloss:0.08318   train-mlogloss:0.00399
+[79]    test-mlogloss:0.08302   train-mlogloss:0.00383
+[80]    test-mlogloss:0.08275   train-mlogloss:0.00367
+[81]    test-mlogloss:0.08265   train-mlogloss:0.00354
+[82]    test-mlogloss:0.08254   train-mlogloss:0.00342
+[83]    test-mlogloss:0.08239   train-mlogloss:0.00329
+[84]    test-mlogloss:0.08230   train-mlogloss:0.00318
+[85]    test-mlogloss:0.08227   train-mlogloss:0.00308
+[86]    test-mlogloss:0.08209   train-mlogloss:0.00298
+[87]    test-mlogloss:0.08211   train-mlogloss:0.00289
+[88]    test-mlogloss:0.08203   train-mlogloss:0.00280
+[89]    test-mlogloss:0.08209   train-mlogloss:0.00269
+[90]    test-mlogloss:0.08218   train-mlogloss:0.00261
+[91]    test-mlogloss:0.08202   train-mlogloss:0.00251
+[92]    test-mlogloss:0.08206   train-mlogloss:0.00245
+[93]    test-mlogloss:0.08195   train-mlogloss:0.00236
+[94]    test-mlogloss:0.08182   train-mlogloss:0.00230
+[95]    test-mlogloss:0.08174   train-mlogloss:0.00223
+[96]    test-mlogloss:0.08171   train-mlogloss:0.00217
+[97]    test-mlogloss:0.08174   train-mlogloss:0.00211
+[98]    test-mlogloss:0.08178   train-mlogloss:0.00205
+[99]    test-mlogloss:0.08153   train-mlogloss:0.00199
+[100]   test-mlogloss:0.08135   train-mlogloss:0.00194
+[101]   test-mlogloss:0.08142   train-mlogloss:0.00188
+[102]   test-mlogloss:0.08136   train-mlogloss:0.00184
+[103]   test-mlogloss:0.08115   train-mlogloss:0.00179
+[104]   test-mlogloss:0.08109   train-mlogloss:0.00175
+[105]   test-mlogloss:0.08108   train-mlogloss:0.00171
+[106]   test-mlogloss:0.08103   train-mlogloss:0.00166
+[107]   test-mlogloss:0.08098   train-mlogloss:0.00163
+[108]   test-mlogloss:0.08098   train-mlogloss:0.00159
+[109]   test-mlogloss:0.08118   train-mlogloss:0.00155
+[110]   test-mlogloss:0.08106   train-mlogloss:0.00152
+[111]   test-mlogloss:0.08114   train-mlogloss:0.00149
+[112]   test-mlogloss:0.08117   train-mlogloss:0.00145
+[113]   test-mlogloss:0.08133   train-mlogloss:0.00143
+[114]   test-mlogloss:0.08133   train-mlogloss:0.00140
+[115]   test-mlogloss:0.08134   train-mlogloss:0.00137
+[116]   test-mlogloss:0.08117   train-mlogloss:0.00134
+[117]   test-mlogloss:0.08109   train-mlogloss:0.00131
+[118]   test-mlogloss:0.08130   train-mlogloss:0.00128
+[119]   test-mlogloss:0.08131   train-mlogloss:0.00126
+[120]   test-mlogloss:0.08152   train-mlogloss:0.00123
+[121]   test-mlogloss:0.08151   train-mlogloss:0.00121
+[122]   test-mlogloss:0.08164   train-mlogloss:0.00119
+[123]   test-mlogloss:0.08170   train-mlogloss:0.00117
+[124]   test-mlogloss:0.08164   train-mlogloss:0.00115
+[125]   test-mlogloss:0.08167   train-mlogloss:0.00113
+[126]   test-mlogloss:0.08188   train-mlogloss:0.00111
+[127]   test-mlogloss:0.08200   train-mlogloss:0.00109
+[128]   test-mlogloss:0.08208   train-mlogloss:0.00108
+[129]   test-mlogloss:0.08208   train-mlogloss:0.00106
+[130]   test-mlogloss:0.08218   train-mlogloss:0.00104
+[131]   test-mlogloss:0.08216   train-mlogloss:0.00102
+[132]   test-mlogloss:0.08223   train-mlogloss:0.00101
+[133]   test-mlogloss:0.08223   train-mlogloss:0.00099
+[134]   test-mlogloss:0.08210   train-mlogloss:0.00097
+[135]   test-mlogloss:0.08212   train-mlogloss:0.00096
+[136]   test-mlogloss:0.08217   train-mlogloss:0.00094
+[137]   test-mlogloss:0.08222   train-mlogloss:0.00093
+[138]   test-mlogloss:0.08222   train-mlogloss:0.00092
+[139]   test-mlogloss:0.08227   train-mlogloss:0.00090
+[140]   test-mlogloss:0.08237   train-mlogloss:0.00089
+[141]   test-mlogloss:0.08253   train-mlogloss:0.00088
+[142]   test-mlogloss:0.08252   train-mlogloss:0.00087
+[143]   test-mlogloss:0.08266   train-mlogloss:0.00086
+[144]   test-mlogloss:0.08262   train-mlogloss:0.00084
+[145]   test-mlogloss:0.08272   train-mlogloss:0.00083
+[146]   test-mlogloss:0.08287   train-mlogloss:0.00082
+[147]   test-mlogloss:0.08290   train-mlogloss:0.00081
+[148]   test-mlogloss:0.08300   train-mlogloss:0.00080
+[149]   test-mlogloss:0.08309   train-mlogloss:0.00079
+[150]   test-mlogloss:0.08316   train-mlogloss:0.00078
+[151]   test-mlogloss:0.08314   train-mlogloss:0.00077
+[152]   test-mlogloss:0.08312   train-mlogloss:0.00076
+[153]   test-mlogloss:0.08319   train-mlogloss:0.00075
+[154]   test-mlogloss:0.08319   train-mlogloss:0.00075
+[155]   test-mlogloss:0.08320   train-mlogloss:0.00074
+[156]   test-mlogloss:0.08321   train-mlogloss:0.00073
+[157]   test-mlogloss:0.08325   train-mlogloss:0.00072
+[158]   test-mlogloss:0.08336   train-mlogloss:0.00071
+[159]   test-mlogloss:0.08338   train-mlogloss:0.00070
+[160]   test-mlogloss:0.08342   train-mlogloss:0.00070
+[161]   test-mlogloss:0.08344   train-mlogloss:0.00069
+[162]   test-mlogloss:0.08357   train-mlogloss:0.00068
+[163]   test-mlogloss:0.08360   train-mlogloss:0.00068
+[164]   test-mlogloss:0.08363   train-mlogloss:0.00067
+[165]   test-mlogloss:0.08367   train-mlogloss:0.00066
+[166]   test-mlogloss:0.08372   train-mlogloss:0.00065
+[167]   test-mlogloss:0.08378   train-mlogloss:0.00065
+[168]   test-mlogloss:0.08380   train-mlogloss:0.00064
+[169]   test-mlogloss:0.08385   train-mlogloss:0.00064
+[170]   test-mlogloss:0.08386   train-mlogloss:0.00063
+[171]   test-mlogloss:0.08398   train-mlogloss:0.00062
+[172]   test-mlogloss:0.08397   train-mlogloss:0.00062
+[173]   test-mlogloss:0.08404   train-mlogloss:0.00061
+[174]   test-mlogloss:0.08414   train-mlogloss:0.00061
+[175]   test-mlogloss:0.08412   train-mlogloss:0.00060
+[176]   test-mlogloss:0.08411   train-mlogloss:0.00060
+[177]   test-mlogloss:0.08422   train-mlogloss:0.00059
+[178]   test-mlogloss:0.08442   train-mlogloss:0.00059
+[179]   test-mlogloss:0.08440   train-mlogloss:0.00058
+[180]   test-mlogloss:0.08451   train-mlogloss:0.00058
+[181]   test-mlogloss:0.08468   train-mlogloss:0.00057
+[182]   test-mlogloss:0.08480   train-mlogloss:0.00057
+[183]   test-mlogloss:0.08490   train-mlogloss:0.00056
+[184]   test-mlogloss:0.08488   train-mlogloss:0.00056
+[185]   test-mlogloss:0.08492   train-mlogloss:0.00055
+[186]   test-mlogloss:0.08494   train-mlogloss:0.00055
+[187]   test-mlogloss:0.08495   train-mlogloss:0.00054
+[188]   test-mlogloss:0.08499   train-mlogloss:0.00054
+[189]   test-mlogloss:0.08501   train-mlogloss:0.00053
+[190]   test-mlogloss:0.08496   train-mlogloss:0.00053
+[191]   test-mlogloss:0.08503   train-mlogloss:0.00052
+[192]   test-mlogloss:0.08507   train-mlogloss:0.00052
+[193]   test-mlogloss:0.08519   train-mlogloss:0.00052
+[194]   test-mlogloss:0.08518   train-mlogloss:0.00051
+[195]   test-mlogloss:0.08525   train-mlogloss:0.00051
+[196]   test-mlogloss:0.08530   train-mlogloss:0.00051
+[197]   test-mlogloss:0.08529   train-mlogloss:0.00050
+[198]   test-mlogloss:0.08532   train-mlogloss:0.00050
+[199]   test-mlogloss:0.08540   train-mlogloss:0.00050
+116196 sec:        Training complete!
+ZOO: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [7:39:03<00:00, 55.09s/it]
+143739 sec:        Sigma testing: 0
+143744 sec:        Accuracy on the training set: 0.9889333333333333
+143744 sec:        Accuracy on the testing set: 0.9752
+149388 sec:        Randomized smoothing accuracy on the training set: 0.9800166666666666
+150328 sec:        Randomized smoothing accuracy on the testing set: 0.9702
+150328 sec:        Accuracy on the attacked testing set: 0.612
+150375 sec:        Randomized smoothing accuracy on the attacked testing set: 0.766
+150375 sec:        Sigma testing: 0.05
+150380 sec:        Accuracy on the training set: 0.9886
+150380 sec:        Accuracy on the testing set: 0.976
+156017 sec:        Randomized smoothing accuracy on the training set: 0.9749333333333333
+156956 sec:        Randomized smoothing accuracy on the testing set: 0.9657
+156956 sec:        Accuracy on the attacked testing set: 0.612
+157003 sec:        Randomized smoothing accuracy on the attacked testing set: 0.768
+157003 sec:        Sigma testing: 0.1
+157008 sec:        Accuracy on the training set: 0.9855333333333334
+157008 sec:        Accuracy on the testing set: 0.9732
+162643 sec:        Randomized smoothing accuracy on the training set: 0.9610833333333333
+163582 sec:        Randomized smoothing accuracy on the testing set: 0.9503
+163582 sec:        Accuracy on the attacked testing set: 0.612
+163629 sec:        Randomized smoothing accuracy on the attacked testing set: 0.764
+163629 sec:        Sigma testing: 0.25
+163634 sec:        Accuracy on the training set: 0.9209333333333334
+163634 sec:        Accuracy on the testing set: 0.9117
+169251 sec:        Randomized smoothing accuracy on the training set: 0.7995
+170187 sec:        Randomized smoothing accuracy on the testing set: 0.792
+170187 sec:        Accuracy on the attacked testing set: 0.612
+170234 sec:        Randomized smoothing accuracy on the attacked testing set: 0.76
+170234 sec:        Sigma testing: 0.5
+170239 sec:        Accuracy on the training set: 0.6081
+170239 sec:        Accuracy on the testing set: 0.6083
+175845 sec:        Randomized smoothing accuracy on the training set: 0.47185
+176780 sec:        Randomized smoothing accuracy on the testing set: 0.4728
+176780 sec:        Accuracy on the attacked testing set: 0.612
+176827 sec:        Randomized smoothing accuracy on the attacked testing set: 0.772
+176830 sec:
+176830 sec:        -----
+176830 sec:        Sigma smoothing: 0.25
+176830 sec:        -----
+176830 sec:        Training the model...
+[06:11:35] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:576:
+Parameters: { "metric" } might not be used.
+
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+
+
+[06:11:41] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[0]     test-mlogloss:1.53413   train-mlogloss:1.58191
+[1]     test-mlogloss:1.20624   train-mlogloss:1.26207
+[2]     test-mlogloss:0.98947   train-mlogloss:1.04689
+[3]     test-mlogloss:0.83026   train-mlogloss:0.88370
+[4]     test-mlogloss:0.71044   train-mlogloss:0.75938
+[5]     test-mlogloss:0.61645   train-mlogloss:0.65844
+[6]     test-mlogloss:0.54463   train-mlogloss:0.57920
+[7]     test-mlogloss:0.48646   train-mlogloss:0.51441
+[8]     test-mlogloss:0.43806   train-mlogloss:0.45952
+[9]     test-mlogloss:0.39783   train-mlogloss:0.41273
+[10]    test-mlogloss:0.36515   train-mlogloss:0.37247
+[11]    test-mlogloss:0.33789   train-mlogloss:0.33913
+[12]    test-mlogloss:0.31491   train-mlogloss:0.31058
+[13]    test-mlogloss:0.29439   train-mlogloss:0.28431
+[14]    test-mlogloss:0.27527   train-mlogloss:0.26001
+[15]    test-mlogloss:0.25970   train-mlogloss:0.23983
+[16]    test-mlogloss:0.24558   train-mlogloss:0.22173
+[17]    test-mlogloss:0.23234   train-mlogloss:0.20464
+[18]    test-mlogloss:0.22229   train-mlogloss:0.19065
+[19]    test-mlogloss:0.21226   train-mlogloss:0.17750
+[20]    test-mlogloss:0.20413   train-mlogloss:0.16603
+[21]    test-mlogloss:0.19689   train-mlogloss:0.15571
+[22]    test-mlogloss:0.18918   train-mlogloss:0.14562
+[23]    test-mlogloss:0.18222   train-mlogloss:0.13628
+[24]    test-mlogloss:0.17667   train-mlogloss:0.12854
+[25]    test-mlogloss:0.17073   train-mlogloss:0.12033
+[26]    test-mlogloss:0.16612   train-mlogloss:0.11356
+[27]    test-mlogloss:0.16161   train-mlogloss:0.10691
+[28]    test-mlogloss:0.15801   train-mlogloss:0.10130
+[29]    test-mlogloss:0.15387   train-mlogloss:0.09549
+[30]    test-mlogloss:0.15062   train-mlogloss:0.09058
+[31]    test-mlogloss:0.14725   train-mlogloss:0.08564
+[32]    test-mlogloss:0.14430   train-mlogloss:0.08089
+[33]    test-mlogloss:0.14176   train-mlogloss:0.07660
+[34]    test-mlogloss:0.13951   train-mlogloss:0.07291
+[35]    test-mlogloss:0.13696   train-mlogloss:0.06932
+[36]    test-mlogloss:0.13488   train-mlogloss:0.06603
+[37]    test-mlogloss:0.13295   train-mlogloss:0.06283
+[38]    test-mlogloss:0.13098   train-mlogloss:0.05988
+[39]    test-mlogloss:0.12873   train-mlogloss:0.05615
+[40]    test-mlogloss:0.12717   train-mlogloss:0.05335
+[41]    test-mlogloss:0.12531   train-mlogloss:0.05037
+[42]    test-mlogloss:0.12392   train-mlogloss:0.04766
+[43]    test-mlogloss:0.12256   train-mlogloss:0.04528
+[44]    test-mlogloss:0.12135   train-mlogloss:0.04302
+[45]    test-mlogloss:0.11991   train-mlogloss:0.04073
+[46]    test-mlogloss:0.11872   train-mlogloss:0.03881
+[47]    test-mlogloss:0.11784   train-mlogloss:0.03681
+[48]    test-mlogloss:0.11648   train-mlogloss:0.03478
+[49]    test-mlogloss:0.11540   train-mlogloss:0.03308
+[50]    test-mlogloss:0.11443   train-mlogloss:0.03137
+[51]    test-mlogloss:0.11352   train-mlogloss:0.02981
+[52]    test-mlogloss:0.11308   train-mlogloss:0.02827
+[53]    test-mlogloss:0.11257   train-mlogloss:0.02700
+[54]    test-mlogloss:0.11157   train-mlogloss:0.02563
+[55]    test-mlogloss:0.11052   train-mlogloss:0.02430
+[56]    test-mlogloss:0.11002   train-mlogloss:0.02305
+[57]    test-mlogloss:0.10925   train-mlogloss:0.02195
+[58]    test-mlogloss:0.10846   train-mlogloss:0.02077
+[59]    test-mlogloss:0.10805   train-mlogloss:0.01996
+[60]    test-mlogloss:0.10779   train-mlogloss:0.01914
+[61]    test-mlogloss:0.10694   train-mlogloss:0.01821
+[62]    test-mlogloss:0.10597   train-mlogloss:0.01735
+[63]    test-mlogloss:0.10558   train-mlogloss:0.01664
+[64]    test-mlogloss:0.10519   train-mlogloss:0.01588
+[65]    test-mlogloss:0.10499   train-mlogloss:0.01527
+[66]    test-mlogloss:0.10491   train-mlogloss:0.01459
+[67]    test-mlogloss:0.10462   train-mlogloss:0.01383
+[68]    test-mlogloss:0.10443   train-mlogloss:0.01325
+[69]    test-mlogloss:0.10396   train-mlogloss:0.01268
+[70]    test-mlogloss:0.10382   train-mlogloss:0.01210
+[71]    test-mlogloss:0.10372   train-mlogloss:0.01159
+[72]    test-mlogloss:0.10338   train-mlogloss:0.01114
+[73]    test-mlogloss:0.10274   train-mlogloss:0.01070
+[74]    test-mlogloss:0.10243   train-mlogloss:0.01026
+[75]    test-mlogloss:0.10209   train-mlogloss:0.00982
+[76]    test-mlogloss:0.10183   train-mlogloss:0.00947
+[77]    test-mlogloss:0.10156   train-mlogloss:0.00905
+[78]    test-mlogloss:0.10122   train-mlogloss:0.00864
+[79]    test-mlogloss:0.10118   train-mlogloss:0.00829
+[80]    test-mlogloss:0.10079   train-mlogloss:0.00796
+[81]    test-mlogloss:0.10058   train-mlogloss:0.00764
+[82]    test-mlogloss:0.10066   train-mlogloss:0.00733
+[83]    test-mlogloss:0.10041   train-mlogloss:0.00706
+[84]    test-mlogloss:0.10050   train-mlogloss:0.00677
+[85]    test-mlogloss:0.10045   train-mlogloss:0.00649
+[86]    test-mlogloss:0.10013   train-mlogloss:0.00623
+[87]    test-mlogloss:0.09990   train-mlogloss:0.00599
+[88]    test-mlogloss:0.09977   train-mlogloss:0.00578
+[89]    test-mlogloss:0.09976   train-mlogloss:0.00556
+[90]    test-mlogloss:0.09975   train-mlogloss:0.00537
+[91]    test-mlogloss:0.09963   train-mlogloss:0.00521
+[92]    test-mlogloss:0.09964   train-mlogloss:0.00505
+[93]    test-mlogloss:0.09956   train-mlogloss:0.00487
+[94]    test-mlogloss:0.09950   train-mlogloss:0.00472
+[95]    test-mlogloss:0.09955   train-mlogloss:0.00459
+[96]    test-mlogloss:0.09945   train-mlogloss:0.00441
+[97]    test-mlogloss:0.09935   train-mlogloss:0.00427
+[98]    test-mlogloss:0.09925   train-mlogloss:0.00412
+[99]    test-mlogloss:0.09929   train-mlogloss:0.00400
+[100]   test-mlogloss:0.09911   train-mlogloss:0.00387
+[101]   test-mlogloss:0.09912   train-mlogloss:0.00376
+[102]   test-mlogloss:0.09906   train-mlogloss:0.00365
+[103]   test-mlogloss:0.09900   train-mlogloss:0.00353
+[104]   test-mlogloss:0.09899   train-mlogloss:0.00344
+[105]   test-mlogloss:0.09916   train-mlogloss:0.00334
+[106]   test-mlogloss:0.09902   train-mlogloss:0.00324
+[107]   test-mlogloss:0.09913   train-mlogloss:0.00316
+[108]   test-mlogloss:0.09903   train-mlogloss:0.00307
+[109]   test-mlogloss:0.09892   train-mlogloss:0.00298
+[110]   test-mlogloss:0.09881   train-mlogloss:0.00290
+[111]   test-mlogloss:0.09886   train-mlogloss:0.00283
+[112]   test-mlogloss:0.09876   train-mlogloss:0.00275
+[113]   test-mlogloss:0.09871   train-mlogloss:0.00268
+[114]   test-mlogloss:0.09866   train-mlogloss:0.00262
+[115]   test-mlogloss:0.09873   train-mlogloss:0.00254
+[116]   test-mlogloss:0.09871   train-mlogloss:0.00248
+[117]   test-mlogloss:0.09875   train-mlogloss:0.00242
+[118]   test-mlogloss:0.09903   train-mlogloss:0.00236
+[119]   test-mlogloss:0.09925   train-mlogloss:0.00231
+[120]   test-mlogloss:0.09952   train-mlogloss:0.00226
+[121]   test-mlogloss:0.09951   train-mlogloss:0.00220
+[122]   test-mlogloss:0.09957   train-mlogloss:0.00215
+[123]   test-mlogloss:0.09971   train-mlogloss:0.00209
+[124]   test-mlogloss:0.09973   train-mlogloss:0.00205
+[125]   test-mlogloss:0.09976   train-mlogloss:0.00201
+[126]   test-mlogloss:0.09986   train-mlogloss:0.00196
+[127]   test-mlogloss:0.09990   train-mlogloss:0.00192
+[128]   test-mlogloss:0.10007   train-mlogloss:0.00188
+[129]   test-mlogloss:0.10000   train-mlogloss:0.00185
+[130]   test-mlogloss:0.10020   train-mlogloss:0.00181
+[131]   test-mlogloss:0.10037   train-mlogloss:0.00177
+[132]   test-mlogloss:0.10046   train-mlogloss:0.00173
+[133]   test-mlogloss:0.10050   train-mlogloss:0.00170
+[134]   test-mlogloss:0.10055   train-mlogloss:0.00167
+[135]   test-mlogloss:0.10066   train-mlogloss:0.00164
+[136]   test-mlogloss:0.10079   train-mlogloss:0.00161
+[137]   test-mlogloss:0.10103   train-mlogloss:0.00157
+[138]   test-mlogloss:0.10108   train-mlogloss:0.00155
+[139]   test-mlogloss:0.10118   train-mlogloss:0.00152
+[140]   test-mlogloss:0.10115   train-mlogloss:0.00149
+[141]   test-mlogloss:0.10111   train-mlogloss:0.00146
+[142]   test-mlogloss:0.10124   train-mlogloss:0.00144
+[143]   test-mlogloss:0.10139   train-mlogloss:0.00141
+[144]   test-mlogloss:0.10143   train-mlogloss:0.00139
+[145]   test-mlogloss:0.10149   train-mlogloss:0.00137
+[146]   test-mlogloss:0.10149   train-mlogloss:0.00135
+[147]   test-mlogloss:0.10150   train-mlogloss:0.00132
+[148]   test-mlogloss:0.10143   train-mlogloss:0.00130
+[149]   test-mlogloss:0.10154   train-mlogloss:0.00128
+[150]   test-mlogloss:0.10157   train-mlogloss:0.00126
+[151]   test-mlogloss:0.10167   train-mlogloss:0.00124
+[152]   test-mlogloss:0.10168   train-mlogloss:0.00122
+[153]   test-mlogloss:0.10165   train-mlogloss:0.00121
+[154]   test-mlogloss:0.10177   train-mlogloss:0.00119
+[155]   test-mlogloss:0.10170   train-mlogloss:0.00117
+[156]   test-mlogloss:0.10164   train-mlogloss:0.00115
+[157]   test-mlogloss:0.10186   train-mlogloss:0.00114
+[158]   test-mlogloss:0.10198   train-mlogloss:0.00112
+[159]   test-mlogloss:0.10221   train-mlogloss:0.00111
+[160]   test-mlogloss:0.10244   train-mlogloss:0.00109
+[161]   test-mlogloss:0.10264   train-mlogloss:0.00108
+[162]   test-mlogloss:0.10271   train-mlogloss:0.00106
+[163]   test-mlogloss:0.10280   train-mlogloss:0.00105
+[164]   test-mlogloss:0.10297   train-mlogloss:0.00103
+[165]   test-mlogloss:0.10300   train-mlogloss:0.00102
+[166]   test-mlogloss:0.10315   train-mlogloss:0.00101
+[167]   test-mlogloss:0.10308   train-mlogloss:0.00100
+[168]   test-mlogloss:0.10307   train-mlogloss:0.00098
+[169]   test-mlogloss:0.10324   train-mlogloss:0.00097
+[170]   test-mlogloss:0.10343   train-mlogloss:0.00096
+[171]   test-mlogloss:0.10358   train-mlogloss:0.00095
+[172]   test-mlogloss:0.10364   train-mlogloss:0.00094
+[173]   test-mlogloss:0.10372   train-mlogloss:0.00093
+[174]   test-mlogloss:0.10380   train-mlogloss:0.00092
+[175]   test-mlogloss:0.10392   train-mlogloss:0.00091
+[176]   test-mlogloss:0.10397   train-mlogloss:0.00090
+[177]   test-mlogloss:0.10409   train-mlogloss:0.00089
+[178]   test-mlogloss:0.10414   train-mlogloss:0.00088
+[179]   test-mlogloss:0.10423   train-mlogloss:0.00087
+[180]   test-mlogloss:0.10438   train-mlogloss:0.00086
+[181]   test-mlogloss:0.10426   train-mlogloss:0.00085
+[182]   test-mlogloss:0.10437   train-mlogloss:0.00084
+[183]   test-mlogloss:0.10444   train-mlogloss:0.00083
+[184]   test-mlogloss:0.10460   train-mlogloss:0.00082
+[185]   test-mlogloss:0.10459   train-mlogloss:0.00081
+[186]   test-mlogloss:0.10473   train-mlogloss:0.00080
+[187]   test-mlogloss:0.10473   train-mlogloss:0.00080
+[188]   test-mlogloss:0.10481   train-mlogloss:0.00079
+[189]   test-mlogloss:0.10483   train-mlogloss:0.00078
+[190]   test-mlogloss:0.10488   train-mlogloss:0.00077
+[191]   test-mlogloss:0.10514   train-mlogloss:0.00077
+[192]   test-mlogloss:0.10524   train-mlogloss:0.00076
+[193]   test-mlogloss:0.10537   train-mlogloss:0.00075
+[194]   test-mlogloss:0.10546   train-mlogloss:0.00075
+[195]   test-mlogloss:0.10544   train-mlogloss:0.00074
+[196]   test-mlogloss:0.10554   train-mlogloss:0.00073
+[197]   test-mlogloss:0.10563   train-mlogloss:0.00072
+[198]   test-mlogloss:0.10572   train-mlogloss:0.00072
+[199]   test-mlogloss:0.10577   train-mlogloss:0.00071
+177857 sec:        Training complete!
+ZOO: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [6:03:26<00:00, 43.61s/it]
+199663 sec:        Sigma testing: 0
+199668 sec:        Accuracy on the training set: 0.97755
+199668 sec:        Accuracy on the testing set: 0.9703
+205377 sec:        Randomized smoothing accuracy on the training set: 0.97735
+206329 sec:        Randomized smoothing accuracy on the testing set: 0.9712
+206329 sec:        Accuracy on the attacked testing set: 0.876
+206376 sec:        Randomized smoothing accuracy on the attacked testing set: 0.946
+206376 sec:        Sigma testing: 0.05
+206381 sec:        Accuracy on the training set: 0.9777333333333333
+206381 sec:        Accuracy on the testing set: 0.9714
+212087 sec:        Randomized smoothing accuracy on the training set: 0.9769333333333333
+213038 sec:        Randomized smoothing accuracy on the testing set: 0.9712
+213038 sec:        Accuracy on the attacked testing set: 0.876
+213085 sec:        Randomized smoothing accuracy on the attacked testing set: 0.948
+213085 sec:        Sigma testing: 0.1
+213090 sec:        Accuracy on the training set: 0.9771333333333333
+213090 sec:        Accuracy on the testing set: 0.9702
+218802 sec:        Randomized smoothing accuracy on the training set: 0.97595
+219756 sec:        Randomized smoothing accuracy on the testing set: 0.9708
+219756 sec:        Accuracy on the attacked testing set: 0.876
+219804 sec:        Randomized smoothing accuracy on the attacked testing set: 0.95
+219804 sec:        Sigma testing: 0.25
+219808 sec:        Accuracy on the training set: 0.9691833333333333
+219809 sec:        Accuracy on the testing set: 0.9637
+225508 sec:        Randomized smoothing accuracy on the training set: 0.9667333333333333
+226457 sec:        Randomized smoothing accuracy on the testing set: 0.9624
+226457 sec:        Accuracy on the attacked testing set: 0.876
+226504 sec:        Randomized smoothing accuracy on the attacked testing set: 0.946
+226504 sec:        Sigma testing: 0.5
+226509 sec:        Accuracy on the training set: 0.8510666666666666
+226509 sec:        Accuracy on the testing set: 0.8534
+232195 sec:        Randomized smoothing accuracy on the training set: 0.8165
+233143 sec:        Randomized smoothing accuracy on the testing set: 0.8175
+233143 sec:        Accuracy on the attacked testing set: 0.876
+233190 sec:        Randomized smoothing accuracy on the attacked testing set: 0.946
+233193 sec:
+233193 sec:        -----
+233193 sec:        Sigma smoothing: 0.5
+233193 sec:        -----
+233193 sec:        Training the model...
+[21:50:58] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:576:
+Parameters: { "metric" } might not be used.
+
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+
+
+[21:51:04] WARNING: D:\bld\xgboost-split_1634712635879\work\src\learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+[0]     test-mlogloss:1.73252   train-mlogloss:1.91916
+[1]     test-mlogloss:1.41402   train-mlogloss:1.67842
+[2]     test-mlogloss:1.19034   train-mlogloss:1.49750
+[3]     test-mlogloss:1.02404   train-mlogloss:1.35173
+[4]     test-mlogloss:0.89992   train-mlogloss:1.23299
+[5]     test-mlogloss:0.80072   train-mlogloss:1.13071
+[6]     test-mlogloss:0.72096   train-mlogloss:1.04433
+[7]     test-mlogloss:0.65634   train-mlogloss:0.96813
+[8]     test-mlogloss:0.60363   train-mlogloss:0.90224
+[9]     test-mlogloss:0.55950   train-mlogloss:0.84319
+[10]    test-mlogloss:0.52344   train-mlogloss:0.79075
+[11]    test-mlogloss:0.49009   train-mlogloss:0.74190
+[12]    test-mlogloss:0.46500   train-mlogloss:0.69935
+[13]    test-mlogloss:0.43977   train-mlogloss:0.65986
+[14]    test-mlogloss:0.41830   train-mlogloss:0.62357
+[15]    test-mlogloss:0.39758   train-mlogloss:0.58982
+[16]    test-mlogloss:0.38272   train-mlogloss:0.56015
+[17]    test-mlogloss:0.36889   train-mlogloss:0.53246
+[18]    test-mlogloss:0.35658   train-mlogloss:0.50655
+[19]    test-mlogloss:0.34414   train-mlogloss:0.48184
+[20]    test-mlogloss:0.33281   train-mlogloss:0.45934
+[21]    test-mlogloss:0.32385   train-mlogloss:0.43851
+[22]    test-mlogloss:0.31416   train-mlogloss:0.41808
+[23]    test-mlogloss:0.30531   train-mlogloss:0.39933
+[24]    test-mlogloss:0.29808   train-mlogloss:0.38172
+[25]    test-mlogloss:0.29120   train-mlogloss:0.36594
+[26]    test-mlogloss:0.28455   train-mlogloss:0.35035
+[27]    test-mlogloss:0.27907   train-mlogloss:0.33618
+[28]    test-mlogloss:0.27273   train-mlogloss:0.32195
+[29]    test-mlogloss:0.26750   train-mlogloss:0.30848
+[30]    test-mlogloss:0.26205   train-mlogloss:0.29527
+[31]    test-mlogloss:0.25757   train-mlogloss:0.28348
+[32]    test-mlogloss:0.25386   train-mlogloss:0.27250
+[33]    test-mlogloss:0.24979   train-mlogloss:0.26153
+[34]    test-mlogloss:0.24640   train-mlogloss:0.25176
+[35]    test-mlogloss:0.24296   train-mlogloss:0.24189
+[36]    test-mlogloss:0.23922   train-mlogloss:0.23237
+[37]    test-mlogloss:0.23617   train-mlogloss:0.22309
+[38]    test-mlogloss:0.23429   train-mlogloss:0.21482
+[39]    test-mlogloss:0.23124   train-mlogloss:0.20663
+[40]    test-mlogloss:0.22863   train-mlogloss:0.19888
+[41]    test-mlogloss:0.22593   train-mlogloss:0.19166
+[42]    test-mlogloss:0.22405   train-mlogloss:0.18499
+[43]    test-mlogloss:0.22192   train-mlogloss:0.17807
+[44]    test-mlogloss:0.21929   train-mlogloss:0.17086
+[45]    test-mlogloss:0.21730   train-mlogloss:0.16414
+[46]    test-mlogloss:0.21571   train-mlogloss:0.15799
+[47]    test-mlogloss:0.21362   train-mlogloss:0.15151
+[48]    test-mlogloss:0.21207   train-mlogloss:0.14608
+[49]    test-mlogloss:0.21058   train-mlogloss:0.14088
+[50]    test-mlogloss:0.20882   train-mlogloss:0.13569
+[51]    test-mlogloss:0.20789   train-mlogloss:0.13077
+[52]    test-mlogloss:0.20677   train-mlogloss:0.12622
+[53]    test-mlogloss:0.20529   train-mlogloss:0.12139
+[54]    test-mlogloss:0.20481   train-mlogloss:0.11705
+[55]    test-mlogloss:0.20399   train-mlogloss:0.11277
+[56]    test-mlogloss:0.20290   train-mlogloss:0.10879
+[57]    test-mlogloss:0.20217   train-mlogloss:0.10505
+[58]    test-mlogloss:0.20155   train-mlogloss:0.10142
+[59]    test-mlogloss:0.20091   train-mlogloss:0.09781
+[60]    test-mlogloss:0.20005   train-mlogloss:0.09428
+[61]    test-mlogloss:0.19886   train-mlogloss:0.09093
+[62]    test-mlogloss:0.19843   train-mlogloss:0.08769
+[63]    test-mlogloss:0.19729   train-mlogloss:0.08444
+[64]    test-mlogloss:0.19645   train-mlogloss:0.08150
+[65]    test-mlogloss:0.19613   train-mlogloss:0.07859
+[66]    test-mlogloss:0.19579   train-mlogloss:0.07594
+[67]    test-mlogloss:0.19532   train-mlogloss:0.07306
+[68]    test-mlogloss:0.19459   train-mlogloss:0.07054
+[69]    test-mlogloss:0.19437   train-mlogloss:0.06823
+[70]    test-mlogloss:0.19344   train-mlogloss:0.06594
+[71]    test-mlogloss:0.19348   train-mlogloss:0.06362
+[72]    test-mlogloss:0.19311   train-mlogloss:0.06160
+[73]    test-mlogloss:0.19277   train-mlogloss:0.05957
+[74]    test-mlogloss:0.19216   train-mlogloss:0.05744
+[75]    test-mlogloss:0.19210   train-mlogloss:0.05552
+[76]    test-mlogloss:0.19160   train-mlogloss:0.05365
+[77]    test-mlogloss:0.19119   train-mlogloss:0.05185
+[78]    test-mlogloss:0.19091   train-mlogloss:0.05005
+[79]    test-mlogloss:0.19022   train-mlogloss:0.04836
+[80]    test-mlogloss:0.18960   train-mlogloss:0.04665
+[81]    test-mlogloss:0.18907   train-mlogloss:0.04506
+[82]    test-mlogloss:0.18858   train-mlogloss:0.04334
+[83]    test-mlogloss:0.18857   train-mlogloss:0.04197
+[84]    test-mlogloss:0.18835   train-mlogloss:0.04060
+[85]    test-mlogloss:0.18811   train-mlogloss:0.03923
+[86]    test-mlogloss:0.18772   train-mlogloss:0.03797
+[87]    test-mlogloss:0.18756   train-mlogloss:0.03670
+[88]    test-mlogloss:0.18765   train-mlogloss:0.03546
+[89]    test-mlogloss:0.18726   train-mlogloss:0.03429
+[90]    test-mlogloss:0.18762   train-mlogloss:0.03319
+[91]    test-mlogloss:0.18729   train-mlogloss:0.03216
+[92]    test-mlogloss:0.18730   train-mlogloss:0.03113
+[93]    test-mlogloss:0.18721   train-mlogloss:0.03007
+[94]    test-mlogloss:0.18733   train-mlogloss:0.02906
+[95]    test-mlogloss:0.18751   train-mlogloss:0.02811
+[96]    test-mlogloss:0.18735   train-mlogloss:0.02726
+[97]    test-mlogloss:0.18731   train-mlogloss:0.02644
+[98]    test-mlogloss:0.18758   train-mlogloss:0.02562
+[99]    test-mlogloss:0.18796   train-mlogloss:0.02483
+[100]   test-mlogloss:0.18790   train-mlogloss:0.02406
+[101]   test-mlogloss:0.18792   train-mlogloss:0.02334
+[102]   test-mlogloss:0.18804   train-mlogloss:0.02262
+[103]   test-mlogloss:0.18817   train-mlogloss:0.02198
+[104]   test-mlogloss:0.18837   train-mlogloss:0.02129
+[105]   test-mlogloss:0.18865   train-mlogloss:0.02067
+[106]   test-mlogloss:0.18905   train-mlogloss:0.02002
+[107]   test-mlogloss:0.18904   train-mlogloss:0.01943
+[108]   test-mlogloss:0.18870   train-mlogloss:0.01884
+[109]   test-mlogloss:0.18891   train-mlogloss:0.01828
+[110]   test-mlogloss:0.18883   train-mlogloss:0.01777
+[111]   test-mlogloss:0.18879   train-mlogloss:0.01725
+[112]   test-mlogloss:0.18859   train-mlogloss:0.01671
+[113]   test-mlogloss:0.18866   train-mlogloss:0.01620
+[114]   test-mlogloss:0.18899   train-mlogloss:0.01576
+[115]   test-mlogloss:0.18927   train-mlogloss:0.01534
+[116]   test-mlogloss:0.18945   train-mlogloss:0.01487
+[117]   test-mlogloss:0.18979   train-mlogloss:0.01447
+[118]   test-mlogloss:0.18974   train-mlogloss:0.01407
+[119]   test-mlogloss:0.18979   train-mlogloss:0.01368
+[120]   test-mlogloss:0.18982   train-mlogloss:0.01330
+[121]   test-mlogloss:0.18998   train-mlogloss:0.01293
+[122]   test-mlogloss:0.19014   train-mlogloss:0.01257
+[123]   test-mlogloss:0.19015   train-mlogloss:0.01222
+[124]   test-mlogloss:0.19029   train-mlogloss:0.01189
+[125]   test-mlogloss:0.19074   train-mlogloss:0.01160
+[126]   test-mlogloss:0.19111   train-mlogloss:0.01129
+[127]   test-mlogloss:0.19124   train-mlogloss:0.01099
+[128]   test-mlogloss:0.19126   train-mlogloss:0.01068
+[129]   test-mlogloss:0.19135   train-mlogloss:0.01041
+[130]   test-mlogloss:0.19150   train-mlogloss:0.01017
+[131]   test-mlogloss:0.19149   train-mlogloss:0.00991
+[132]   test-mlogloss:0.19167   train-mlogloss:0.00964
+[133]   test-mlogloss:0.19192   train-mlogloss:0.00942
+[134]   test-mlogloss:0.19228   train-mlogloss:0.00918
+[135]   test-mlogloss:0.19269   train-mlogloss:0.00895
+[136]   test-mlogloss:0.19277   train-mlogloss:0.00873
+[137]   test-mlogloss:0.19298   train-mlogloss:0.00853
+[138]   test-mlogloss:0.19332   train-mlogloss:0.00833
+[139]   test-mlogloss:0.19345   train-mlogloss:0.00813
+[140]   test-mlogloss:0.19361   train-mlogloss:0.00793
+[141]   test-mlogloss:0.19398   train-mlogloss:0.00775
+[142]   test-mlogloss:0.19417   train-mlogloss:0.00757
+[143]   test-mlogloss:0.19402   train-mlogloss:0.00741
+[144]   test-mlogloss:0.19415   train-mlogloss:0.00725
+[145]   test-mlogloss:0.19437   train-mlogloss:0.00710
+[146]   test-mlogloss:0.19414   train-mlogloss:0.00694
+[147]   test-mlogloss:0.19469   train-mlogloss:0.00679
+[148]   test-mlogloss:0.19501   train-mlogloss:0.00665
+[149]   test-mlogloss:0.19516   train-mlogloss:0.00650
+[150]   test-mlogloss:0.19537   train-mlogloss:0.00635
+[151]   test-mlogloss:0.19552   train-mlogloss:0.00622
+[152]   test-mlogloss:0.19553   train-mlogloss:0.00608
+[153]   test-mlogloss:0.19584   train-mlogloss:0.00595
+[154]   test-mlogloss:0.19603   train-mlogloss:0.00583
+[155]   test-mlogloss:0.19608   train-mlogloss:0.00571
+[156]   test-mlogloss:0.19651   train-mlogloss:0.00559
+[157]   test-mlogloss:0.19680   train-mlogloss:0.00548
+[158]   test-mlogloss:0.19676   train-mlogloss:0.00539
+[159]   test-mlogloss:0.19692   train-mlogloss:0.00527
+[160]   test-mlogloss:0.19718   train-mlogloss:0.00517
+[161]   test-mlogloss:0.19715   train-mlogloss:0.00505
+[162]   test-mlogloss:0.19731   train-mlogloss:0.00496
+[163]   test-mlogloss:0.19777   train-mlogloss:0.00487
+[164]   test-mlogloss:0.19785   train-mlogloss:0.00477
+[165]   test-mlogloss:0.19810   train-mlogloss:0.00468
+[166]   test-mlogloss:0.19846   train-mlogloss:0.00459
+[167]   test-mlogloss:0.19862   train-mlogloss:0.00450
+[168]   test-mlogloss:0.19869   train-mlogloss:0.00441
+[169]   test-mlogloss:0.19893   train-mlogloss:0.00433
+[170]   test-mlogloss:0.19927   train-mlogloss:0.00426
+[171]   test-mlogloss:0.19962   train-mlogloss:0.00418
+[172]   test-mlogloss:0.20007   train-mlogloss:0.00410
+[173]   test-mlogloss:0.20024   train-mlogloss:0.00402
+[174]   test-mlogloss:0.20030   train-mlogloss:0.00394
+[175]   test-mlogloss:0.20065   train-mlogloss:0.00387
+[176]   test-mlogloss:0.20103   train-mlogloss:0.00381
+[177]   test-mlogloss:0.20111   train-mlogloss:0.00375
+[178]   test-mlogloss:0.20137   train-mlogloss:0.00369
+[179]   test-mlogloss:0.20161   train-mlogloss:0.00362
+[180]   test-mlogloss:0.20183   train-mlogloss:0.00356
+[181]   test-mlogloss:0.20220   train-mlogloss:0.00350
+[182]   test-mlogloss:0.20250   train-mlogloss:0.00344
+[183]   test-mlogloss:0.20296   train-mlogloss:0.00338
+[184]   test-mlogloss:0.20344   train-mlogloss:0.00332
+[185]   test-mlogloss:0.20360   train-mlogloss:0.00327
+[186]   test-mlogloss:0.20365   train-mlogloss:0.00322
+[187]   test-mlogloss:0.20383   train-mlogloss:0.00317
+[188]   test-mlogloss:0.20387   train-mlogloss:0.00312
+[189]   test-mlogloss:0.20417   train-mlogloss:0.00307
+[190]   test-mlogloss:0.20444   train-mlogloss:0.00303
+[191]   test-mlogloss:0.20484   train-mlogloss:0.00298
+[192]   test-mlogloss:0.20516   train-mlogloss:0.00293
+[193]   test-mlogloss:0.20534   train-mlogloss:0.00289
+[194]   test-mlogloss:0.20559   train-mlogloss:0.00284
+[195]   test-mlogloss:0.20582   train-mlogloss:0.00280
+[196]   test-mlogloss:0.20597   train-mlogloss:0.00276
+[197]   test-mlogloss:0.20608   train-mlogloss:0.00272
+[198]   test-mlogloss:0.20639   train-mlogloss:0.00269
+[199]   test-mlogloss:0.20664   train-mlogloss:0.00265
+234314 sec:        Training complete!
+ZOO: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [7:03:30<00:00, 50.82s/it]
+259724 sec:        Sigma testing: 0
+259729 sec:        Accuracy on the training set: 0.9462666666666667
+259729 sec:        Accuracy on the testing set: 0.9499
+265496 sec:        Randomized smoothing accuracy on the training set: 0.9438666666666666
+266457 sec:        Randomized smoothing accuracy on the testing set: 0.9495
+266457 sec:        Accuracy on the attacked testing set: 0.716
+266505 sec:        Randomized smoothing accuracy on the attacked testing set: 0.868
+266505 sec:        Sigma testing: 0.05
+266510 sec:        Accuracy on the training set: 0.9458
+266510 sec:        Accuracy on the testing set: 0.9501
+272275 sec:        Randomized smoothing accuracy on the training set: 0.9433333333333334
+273235 sec:        Randomized smoothing accuracy on the testing set: 0.9483
+273235 sec:        Accuracy on the attacked testing set: 0.716
+273283 sec:        Randomized smoothing accuracy on the attacked testing set: 0.868
+273283 sec:        Sigma testing: 0.1
+273288 sec:        Accuracy on the training set: 0.9447
+273288 sec:        Accuracy on the testing set: 0.948
+279051 sec:        Randomized smoothing accuracy on the training set: 0.9425333333333333
+280012 sec:        Randomized smoothing accuracy on the testing set: 0.9471
+280012 sec:        Accuracy on the attacked testing set: 0.716
+280060 sec:        Randomized smoothing accuracy on the attacked testing set: 0.87
+280060 sec:        Sigma testing: 0.25
+280065 sec:        Accuracy on the training set: 0.93795
+280065 sec:        Accuracy on the testing set: 0.9404
+285836 sec:        Randomized smoothing accuracy on the training set: 0.9363333333333334
+286797 sec:        Randomized smoothing accuracy on the testing set: 0.9399
+286797 sec:        Accuracy on the attacked testing set: 0.716
+286845 sec:        Randomized smoothing accuracy on the attacked testing set: 0.864
+286845 sec:        Sigma testing: 0.5
+286850 sec:        Accuracy on the training set: 0.90455
+286851 sec:        Accuracy on the testing set: 0.9096
+292624 sec:        Randomized smoothing accuracy on the training set: 0.9054333333333333
+293586 sec:        Randomized smoothing accuracy on the testing set: 0.9089
+293586 sec:        Accuracy on the attacked testing set: 0.716
+293634 sec:        Randomized smoothing accuracy on the attacked testing set: 0.866
