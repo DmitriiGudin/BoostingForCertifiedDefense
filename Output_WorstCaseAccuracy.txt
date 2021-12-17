@@ -1,0 +1,59 @@
+1014 sec:        Training complete!
+1014 sec:        Sigma: 0.0
+3435 sec:        Worst case accuracy: 0.988
+3435 sec:        Sigma: 0.02
+5838 sec:        Worst case accuracy: 0.988
+5838 sec:        Sigma: 0.04
+8239 sec:        Worst case accuracy: 0.988
+8239 sec:        Sigma: 0.06
+10639 sec:        Worst case accuracy: 0.988
+10639 sec:        Sigma: 0.08
+13040 sec:        Worst case accuracy: 0.984
+13040 sec:        Sigma: 0.1
+15444 sec:        Worst case accuracy: 0.98
+15444 sec:        Sigma: 0.12
+17844 sec:        Worst case accuracy: 0.98
+17844 sec:        Sigma: 0.14
+20245 sec:        Worst case accuracy: 0.98
+20245 sec:        Sigma: 0.16
+22648 sec:        Worst case accuracy: 0.976
+22648 sec:        Sigma: 0.18
+25052 sec:        Worst case accuracy: 0.968
+25052 sec:        Sigma: 0.2
+27466 sec:        Worst case accuracy: 0.964
+27466 sec:        Sigma: 0.22
+29881 sec:        Worst case accuracy: 0.964
+29881 sec:        Sigma: 0.24
+32287 sec:        Worst case accuracy: 0.952
+32287 sec:        Sigma: 0.26
+34690 sec:        Worst case accuracy: 0.94
+34690 sec:        Sigma: 0.28
+37092 sec:        Worst case accuracy: 0.92
+37092 sec:        Sigma: 0.3
+39498 sec:        Worst case accuracy: 0.908
+39498 sec:        Sigma: 0.32
+41907 sec:        Worst case accuracy: 0.888
+41907 sec:        Sigma: 0.34
+44317 sec:        Worst case accuracy: 0.864
+44317 sec:        Sigma: 0.36
+46724 sec:        Worst case accuracy: 0.848
+46724 sec:        Sigma: 0.38
+49132 sec:        Worst case accuracy: 0.796
+49132 sec:        Sigma: 0.4
+51536 sec:        Worst case accuracy: 0.768
+51536 sec:        Sigma: 0.42
+53943 sec:        Worst case accuracy: 0.74
+53943 sec:        Sigma: 0.44
+56356 sec:        Worst case accuracy: 0.708
+56356 sec:        Sigma: 0.46
+58816 sec:        Worst case accuracy: 0.684
+58816 sec:        Sigma: 0.48
+61263 sec:        Worst case accuracy: 0.636
+61263 sec:        Sigma: 0.5
+64416 sec:        Worst case accuracy: 0.624
+64416 sec:        Sigma: 0.52
+71868 sec:        Worst case accuracy: 0.588
+71868 sec:        Sigma: 0.54
+76275 sec:        Worst case accuracy: 0.564
+76276 sec:        Sigma: 0.56
+81895 sec:        Worst case accuracy: 0.536

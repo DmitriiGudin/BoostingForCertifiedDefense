@@ -91,6 +91,8 @@ def clf_predict (clf, image, sigma=0, min_pixel_value=np.inf, max_pixel_value=np
         if isKeras:
             image = image.reshape(len(image), 1)
         prediction = clf.predict(np.array([image]))[0]
+        if full:
+            return prediction, [prediction]*params.N_MC
         return prediction
     
     
